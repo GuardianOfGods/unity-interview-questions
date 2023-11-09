@@ -259,20 +259,40 @@ Decription: who graduated and start working at company. Working with Unity less 
 </p>
 </details>
 
-**14. Question: **
+**14. Question: What are layers in unity used for?**
 
 <details><summary>Answer</summary>
 <p>
 
+- **Collision Detection**:
+  - Layers are often used to control which objects can collide with each other. By assigning GameObjects to specific layers, you can set up collision matrices to define which layers can interact with each other. This allows for fine-grained control over the physics interactions in your game.
+- **Raycasting**:
+  - When performing raycasts, you can specify which layers the ray should interact with. This is useful for targeting specific types of objects or ignoring others based on their layer assignments.
+- **Rendering and Camera Culling**:
+  - Layers are used to control which objects are visible to specific cameras. This is essential for optimizing rendering performance. For example, you might have a camera that renders only the UI layer or a specific set of layers for certain visual effects.
+- **Audio Occlusion**:
+  - Layers can be used to control how audio interacts with different objects. For example, you might want certain objects to block or allow the passage of audio based on their layer assignments.
+- **Sorting Order**:
+  - In 2D games, layers are used to define the sorting order of sprites. Sprites on higher layers are rendered in front of sprites on lower layers, allowing you to control the visual hierarchy of 2D elements.
+- **Organizing the Scene**:
+  - Layers help organize the GameObjects in the Unity Editor's Scene view. This makes it easier to select, manipulate, and manage objects within the scene.
 
 </p>
 </details>
 
-**15. Question: **
+**15. Question: How to prevent the existing GameObject from being destroyed when change Scene?**
 
 <details><summary>Answer</summary>
 <p>
 
+- Add a monobehaviour script to gameobject and use DontDestroyOnLoad function:
+
+```C-Sharp
+void Awake()
+{
+    DontDestroyOnLoad(transform.gameObject);
+}
+```
 
 </p>
 </details>
