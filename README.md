@@ -108,6 +108,7 @@ Decription: who graduated and start working at company.
 <p>
 
 - **Hierarchy**: The hierarchy displays every GameObject in a list.
+- **Inspector** displays detailed information about your currently selected GameObject, including all attached Components and their properties. Here, you modify the functionality of GameObjects in your scene.
 - **Game view**: The game view option lets developers view the game and make changes to it as they play in real time.
 - **Scene view**: The scene view is a 3D preview of the open scene. Here, developers can add and manage GameObjects.
 - **Project window**: The project window is ideal for complex games. Game developers can use the project window to find game assets in a directory for all models, scripts, and prefabs.
@@ -132,7 +133,99 @@ Decription: who graduated and start working at company.
 </p>
 </details>
 
+**3. Question: What are the necessary conditions for objects to collider?.**
 
+<details><summary><b>Answer</b></summary>
+<p>
+
+- Both objects must have a Collider, and one of the objects must also have a Rigidbody.
+    
+</p>
+</details>
+
+**4. Question: What is the order in which OnEnable, Awake, and Start occur during runtime? Which ones are likely to occur repeatedly within the same object cycle?.**
+
+<details><summary><b>Answer</b></summary>
+<p>
+
+- **Awake** –> **OnEnable** -> **Start**. **OnEnable** can occur repeatedly in the same cycle!
+    
+</p>
+</details>
+
+**5. Question: What difference between stack and queue?**
+
+<details><summary><b>Answer</b></summary>
+<p>
+
+- **Stacks and queues** are both data structures that organize and manage collections of elements, but they differ in how elements are added and removed.
+
+- **Stack**:
+	- **Last In, First Out (LIFO)**: The last element added to the stack is the first one to be removed. Elements are added and removed from the same end, often referred to as the "top" of the stack. Common operations include push (to add an element) and pop (to remove the last-added element).
+
+- **Queue**
+	- **First In, First Out (FIFO)**: The first element added to the queue is the first one to be removed. Elements are added at one end (rear or back) and removed from the other end (front). Common operations include enqueue (to add an element) and dequeue (to remove the first-added element).
+    
+</p>
+</details>
+
+**6. Question: Briefly describe the use of prefab.**
+
+<details><summary><b>Answer</b></summary>
+<p>
+
+- Instantiated when the game is running, prefab is equivalent to a template, making a default configuration for the materials, scripts, and parameters you already have to facilitate future modifications. The content packaged by prefab simplifies the export operation and facilitates team communication.
+    
+</p>
+</details>
+
+**7. Question: What function is used to rotate the object itself ?**
+
+<details><summary><b>Answer</b></summary>
+<p>
+
+- Transform.Rotate()
+    
+</p>
+</details>
+
+**8. Question: What is a coroutine?**
+
+<details><summary><b>Answer</b></summary>
+<p>
+
+- Answer: While the main thread is running, another piece of logic processing is started at the same time to assist the execution of the current program. In other words, starting a coroutine is to start a logic that can be parallel to the program. Can be used to control motion, sequences, and object behavior.
+    
+</p>
+</details>
+
+**9. Question: List some ways to move an object in Unity.**
+
+<details><summary><b>Answer</b></summary>
+<p>
+
+- There are several ways to move an object. Here are some common methods:
+  - **Transform Translate**
+  - **Rigidbody Velocity**
+  - **Rigidbody AddForce**
+  - **Transform Position**
+  - **Lerp Position**
+</p>
+</details>
+
+**10. Question: Explain why "Time.deltaTime" should be used to make things that depend on time operate correctly.**
+
+<details><summary><b>Answer</b></summary>
+<p>
+
+- Unity games run on different devices with varying hardware capabilities. If you use fixed values for movement or animations without considering the frame rate, they might appear too fast on a high-performance device and too slow on a low-performance one.
+- **Time.deltaTime** represents the time it took to complete the last frame. Multiplying your movement or animation values by **Time.deltaTime** ensures that the speed remains consistent across different frame rates.
+- When you use **Time.deltaTime**, your game elements move or animate smoothly regardless of the frame rate. This is crucial for a consistent and enjoyable user experience.
+- Unity's physics engine relies on time to simulate realistic interactions between objects. Using **Time.deltaTime** in physics calculations ensures that the behavior of your game's physics remains consistent across various devices.
+- For effects that depend on time, such as fading, flashing, or pulsating, using **Time.deltaTime** allows you to control the speed of these effects based on the time elapsed, creating a more dynamic and visually appealing experience.
+    
+</p>
+</details>
 
 ## Junior
 Decription: who have 1-3 years work with Unity.
