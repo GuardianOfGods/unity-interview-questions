@@ -18,7 +18,7 @@ Decription: who study in school and work at company at the same time.
 
 **1. Question: There are many game genres. Can you name some games genres?**
 
-<details><summary><b>Answer</b></summary>
+<details><summary>Answer</summary>
 <p>
 
 - **Action** games are a broad genre that typically involves player-controlled characters engaging in various challenges, missions, or activities that require quick reflexes, hand-eye coordination, and a focus on physical challenges. These games often feature a combination of combat, exploration, and puzzle-solving. Action games can further be categorized into sub-genres like platformers, beat 'em ups, and more. Example:  "Super Mario Bros", "Devil May Cry" and "Uncharted."
@@ -33,7 +33,7 @@ Decription: who study in school and work at company at the same time.
 
 **2. What platforms are supported by Unity?**
 
-<details><summary><b>Answer</b></summary>
+<details><summary>Answer</summary>
 <p>
 
 - **Desktop**:
@@ -69,7 +69,7 @@ Decription: who study in school and work at company at the same time.
 
 **3. Question: What is FPS? How does FPS affect to the game?**
 
-<details><summary><b>Answer</b></summary>
+<details><summary>Answer</summary>
 <p>
 
 - FPS index is the acronym for **Frames-per-second** the number of frames displayed per second. Simply put, it measures the number of images that the video card can process per second and display on your screen. The higher the FPS index, the smoother, sharper and less lag the displayed image quality.
@@ -79,7 +79,7 @@ Decription: who study in school and work at company at the same time.
 
 **4. Question: Describe a game engine.**
 
-<details><summary><b>Answer</b></summary>
+<details><summary>Answer</summary>
 <p>
 
 - **A game engine** is a software framework designed to facilitate the creation and development of video games. It provides developers with a set of tools, libraries, and features that streamline the game development process, allowing them to focus on creating game content rather than dealing with low-level programming tasks.
@@ -104,7 +104,7 @@ Decription: who graduated and start working at company. Working with Unity less 
 
 **1. Question: Name some important tab components of Unity 3D.**
 
-<details><summary><b>Answer</b></summary>
+<details><summary>Answer</summary>
 <p>
 
 - **Hierarchy**: The hierarchy displays every GameObject in a list.
@@ -119,7 +119,7 @@ Decription: who graduated and start working at company. Working with Unity less 
 
 **2. Question: What is Object-Oriented Programming (OOP)? List principles of Object-Oriented Programming.**
 
-<details><summary><b>Answer</b></summary>
+<details><summary>Answer</summary>
 <p>
 
 - **Object-oriented programming** is a programming paradigm, or classification, that organizes a group of data attributes with functions or methods into a unit, known as an object.
@@ -135,7 +135,7 @@ Decription: who graduated and start working at company. Working with Unity less 
 
 **3. Question: What are the necessary conditions for objects to collider?.**
 
-<details><summary><b>Answer</b></summary>
+<details><summary>Answer</summary>
 <p>
 
 - Both objects must have a Collider, and one of the objects must also have a Rigidbody.
@@ -145,7 +145,7 @@ Decription: who graduated and start working at company. Working with Unity less 
 
 **4. Question: What is the order in which OnEnable, Awake, and Start occur during runtime? Which ones are likely to occur repeatedly within the same object cycle?.**
 
-<details><summary><b>Answer</b></summary>
+<details><summary>Answer</summary>
 <p>
 
 - **Awake** –> **OnEnable** -> **Start**. **OnEnable** can occur repeatedly in the same cycle!
@@ -155,7 +155,7 @@ Decription: who graduated and start working at company. Working with Unity less 
 
 **5. Question: What difference between stack and queue?**
 
-<details><summary><b>Answer</b></summary>
+<details><summary>Answer</summary>
 <p>
 
 - **Stacks and queues** are both data structures that organize and manage collections of elements, but they differ in how elements are added and removed.
@@ -171,7 +171,7 @@ Decription: who graduated and start working at company. Working with Unity less 
 
 **6. Question: Briefly describe the use of prefab.**
 
-<details><summary><b>Answer</b></summary>
+<details><summary>Answer</summary>
 <p>
 
 - Instantiated when the game is running, prefab is equivalent to a template, making a default configuration for the materials, scripts, and parameters you already have to facilitate future modifications. The content packaged by prefab simplifies the export operation and facilitates team communication.
@@ -181,7 +181,7 @@ Decription: who graduated and start working at company. Working with Unity less 
 
 **7. Question: What function is used to rotate the object itself ?**
 
-<details><summary><b>Answer</b></summary>
+<details><summary>Answer</summary>
 <p>
 
 - Transform.Rotate()
@@ -191,7 +191,7 @@ Decription: who graduated and start working at company. Working with Unity less 
 
 **8. Question: What is a coroutine?**
 
-<details><summary><b>Answer</b></summary>
+<details><summary>Answer</summary>
 <p>
 
 - Answer: While the main thread is running, another piece of logic processing is started at the same time to assist the execution of the current program. In other words, starting a coroutine is to start a logic that can be parallel to the program. Can be used to control motion, sequences, and object behavior.
@@ -201,7 +201,7 @@ Decription: who graduated and start working at company. Working with Unity less 
 
 **9. Question: List some ways to move an object in Unity.**
 
-<details><summary><b>Answer</b></summary>
+<details><summary>Answer</summary>
 <p>
 
 - There are several ways to move an object. Here are some common methods:
@@ -215,7 +215,7 @@ Decription: who graduated and start working at company. Working with Unity less 
 
 **10. Question: Explain why "Time.deltaTime" should be used to make things that depend on time operate correctly.**
 
-<details><summary><b>Answer</b></summary>
+<details><summary>Answer</summary>
 <p>
 
 - Unity games run on different devices with varying hardware capabilities. If you use fixed values for movement or animations without considering the frame rate, they might appear too fast on a high-performance device and too slow on a low-performance one.
@@ -229,7 +229,7 @@ Decription: who graduated and start working at company. Working with Unity less 
 
 **11. Question: **
 
-<details><summary><b>Answer</b></summary>
+<details><summary>Answer</summary>
 <p>
 
 
@@ -238,7 +238,7 @@ Decription: who graduated and start working at company. Working with Unity less 
 
 **12. Question: **
 
-<details><summary><b>Answer</b></summary>
+<details><summary>Answer</summary>
 <p>
 
 
@@ -247,7 +247,7 @@ Decription: who graduated and start working at company. Working with Unity less 
 
 **13. Question: **
 
-<details><summary><b>Answer</b></summary>
+<details><summary>Answer</summary>
 <p>
 
 
@@ -256,7 +256,7 @@ Decription: who graduated and start working at company. Working with Unity less 
 
 **14. Question: **
 
-<details><summary><b>Answer</b></summary>
+<details><summary>Answer</summary>
 <p>
 
 
@@ -265,7 +265,7 @@ Decription: who graduated and start working at company. Working with Unity less 
 
 **15. Question: **
 
-<details><summary><b>Answer</b></summary>
+<details><summary>Answer</summary>
 <p>
 
 
@@ -274,7 +274,7 @@ Decription: who graduated and start working at company. Working with Unity less 
 
 **16. Question: **
 
-<details><summary><b>Answer</b></summary>
+<details><summary>Answer</summary>
 <p>
 
 
@@ -283,7 +283,7 @@ Decription: who graduated and start working at company. Working with Unity less 
 
 **17. Question: **
 
-<details><summary><b>Answer</b></summary>
+<details><summary>Answer</summary>
 <p>
 
 
@@ -292,7 +292,7 @@ Decription: who graduated and start working at company. Working with Unity less 
 
 **18. Question: **
 
-<details><summary><b>Answer</b></summary>
+<details><summary>Answer</summary>
 <p>
 
 
@@ -301,7 +301,7 @@ Decription: who graduated and start working at company. Working with Unity less 
 
 **19. Question: **
 
-<details><summary><b>Answer</b></summary>
+<details><summary>Answer</summary>
 <p>
 
 
@@ -310,7 +310,7 @@ Decription: who graduated and start working at company. Working with Unity less 
 
 **20. Question: **
 
-<details><summary><b>Answer</b></summary>
+<details><summary>Answer</summary>
 <p>
 
 
