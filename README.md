@@ -227,29 +227,34 @@ Decription: who graduated and start working at company. Working with Unity less 
 </p>
 </details>
 
-**11. Question: **
+**11. Question: What is the difference between material and sharedmaterial in MeshRender?**
 
 <details><summary>Answer</summary>
 <p>
 
+- Modifying **sharedMaterial** will change the appearance of all objects using this material, and will also change the material settings stored in the project. Modifying the **material** returned by sharedMaterial is not recommended. If you want to modify the renderer's material, use material instead.
 
 </p>
 </details>
 
-**12. Question: **
+**12. Question: Why using pooling object is important? How does it work in Unity?**
 
 <details><summary>Answer</summary>
 <p>
 
+- Reusing GameObjects after being destroyed such as artillery shells, fx, etc. costs memory each time they are destroyed and created. Using Pooling is understood as just hiding the GameObject, then resetting its position, rotation angle, etc. and displaying it again when used. This helps increase game performance significantly.
 
 </p>
 </details>
 
-**13. Question: **
+**13. Question: How to save local data?**
 
 <details><summary>Answer</summary>
 <p>
 
+- **PlayerPrefs.**
+- **Serialization to Json.**
+- **Binary Serialization.**
 
 </p>
 </details>
@@ -318,13 +323,10 @@ Decription: who graduated and start working at company. Working with Unity less 
 </details>
 
 ## Junior
-Decription: who have 1-3 years work with Unity.
-
-## Middle Junior
-Decription: who have more than 3 years work with Unity.
+Decription: who have 1-5 years work with Unity.
 
 ## Senior
-Decription: practically who have more than 5 years work with Unity and base on knowledge.
+Decription: practically who have more than 5 years working with Unity and base on knowledge.
 
 ### You can support me via
 
