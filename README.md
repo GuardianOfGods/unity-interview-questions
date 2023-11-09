@@ -100,7 +100,7 @@ Popular game engines include **Unity**, **Unreal Engine**, and **CryEngine**. Ga
 </details>
 
 ## Fresher
-Decription: who graduated and start working at company.
+Decription: who graduated and start working at company. Working with Unity less than 1 year.
 
 **1. Question: Name some important tab components of Unity 3D.**
 
@@ -224,6 +224,96 @@ Decription: who graduated and start working at company.
 - Unity's physics engine relies on time to simulate realistic interactions between objects. Using **Time.deltaTime** in physics calculations ensures that the behavior of your game's physics remains consistent across various devices.
 - For effects that depend on time, such as fading, flashing, or pulsating, using **Time.deltaTime** allows you to control the speed of these effects based on the time elapsed, creating a more dynamic and visually appealing experience.
     
+</p>
+</details>
+
+**11. Question: **
+
+<details><summary><b>Answer</b></summary>
+<p>
+
+
+</p>
+</details>
+
+**12. Question: **
+
+<details><summary><b>Answer</b></summary>
+<p>
+
+
+</p>
+</details>
+
+**13. Question: **
+
+<details><summary><b>Answer</b></summary>
+<p>
+
+
+</p>
+</details>
+
+**14. Question: **
+
+<details><summary><b>Answer</b></summary>
+<p>
+
+
+</p>
+</details>
+
+**15. Question: **
+
+<details><summary><b>Answer</b></summary>
+<p>
+
+
+</p>
+</details>
+
+**16. Question: **
+
+<details><summary><b>Answer</b></summary>
+<p>
+
+
+</p>
+</details>
+
+**17. Question: **
+
+<details><summary><b>Answer</b></summary>
+<p>
+
+
+</p>
+</details>
+
+**18. Question: **
+
+<details><summary><b>Answer</b></summary>
+<p>
+
+
+</p>
+</details>
+
+**19. Question: **
+
+<details><summary><b>Answer</b></summary>
+<p>
+
+
+</p>
+</details>
+
+**20. Question: **
+
+<details><summary><b>Answer</b></summary>
+<p>
+
+
 </p>
 </details>
 
