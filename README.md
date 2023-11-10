@@ -12,7 +12,7 @@ Let's answer the questions and achieve your goals !!
 - [Fresher](#Fresher)
 - [Junior](#Junior)
 - [Senior](#Senior)
-## Intern
+# Intern
 Decription: who study in school and work at company at the same time.
 
 **1. Question: There are many game genres. Can you name some games genres?**
@@ -98,7 +98,7 @@ Popular game engines include **Unity**, **Unreal Engine**, and **CryEngine**. Ga
 </p>
 </details>
 
-## Fresher
+# Fresher
 Decription: who graduated and start working at company. Working with Unity less than 1 year.
 
 **1. Question: Name some important tab components of Unity 3D.**
@@ -362,13 +362,37 @@ void Awake()
 </p>
 </details>
 
-## Junior
+# Junior
 Decription: who have 1-5 years work with Unity.
 
-## Senior
+# Senior
 Decription: practically who have more than 5 years working with Unity and base on knowledge.
 
-### You can support me via
+## LICENSE
+```MIT License
+
+Copyright (c) 2023 HoangVanThu
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+```
+
+## You can support me via
 
 <a href="https://www.buymeacoffee.com/HoangVanThu">
   <img src="https://www.the3rdsequence.com/texturedb/images/donate/buymeacoffee.svg" width="200" height="47"/>
