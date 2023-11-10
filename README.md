@@ -326,20 +326,52 @@ void Awake()
 </p>
 </details>
 
-**17. Question: **
+**17. Question: Explain about enumeration in Unity. Take an example.**
 
 <details><summary>Answer</summary>
 <p>
 
+- **Enumeration** commonly referred to as an enum, is a distinct value type that defines a set of named values representing specific states or options. Enums are used to make code more readable and maintainable by providing meaningful names to integral values.
+- **For example**: 
+```C-Sharp
+public enum Direction
+{
+    North,
+    South,
+    East,
+    West
+}
+```
 
 </p>
 </details>
 
-**18. Question: **
+**18. Question: Name a few Unity packages on the assets store that you know. What is it used for?**
 
 <details><summary>Answer</summary>
 <p>
 
+**Some example packages**:
+- **TextMesh Pro**:
+  - Purpose: It provides advanced text rendering and formatting tools, offering more control and flexibility over Unity's built-in Text component.
+- **Cinemachine**:
+  - Purpose: Cinemachine is a powerful and customizable camera system for Unity. It simplifies the process of creating dynamic and cinematic camera movements in games.
+- **Post Processing Stack**:
+  - Purpose: This package enhances the visual quality of your Unity project by adding post-processing effects like ambient occlusion, bloom, color grading, and more.
+- **DOTween**:
+  - Purpose: DOTween is a fast, efficient, and easy-to-use animation engine for Unity. It allows developers to create smooth and complex animations with a simple syntax.
+- **Shader Graph**:
+  - Purpose: Shader Graph is a visual tool for creating shaders in Unity without the need for programming. It enables artists and developers to create custom materials and effects through a node-based interface.
+- **ProBuilder**:
+  - Purpose: ProBuilder is a 3D modeling tool integrated into the Unity editor. It allows developers to create, edit, and prototype 3D models directly within the Unity environment.
+- **Rewired**:
+  - Purpose: Rewired is a powerful input management system for Unity. It provides a customizable and unified input solution, making it easier to handle various input devices and platforms.
+- **Playmaker**:
+  - Purpose: Playmaker is a visual scripting tool that allows game designers and developers to create gameplay mechanics and logic without writing code.
+- **FinalIK**:
+  - Purpose: FinalIK is an inverse kinematics solution for Unity, helping developers implement realistic character animations by simulating the movements of bones in a skeletal hierarchy.
+- **EasySave**:
+  - Purpose: EasySave is a serialization and data storage solution for Unity. It simplifies the process of saving and loading game data, including player preferences and game progress.
 
 </p>
 </details>
