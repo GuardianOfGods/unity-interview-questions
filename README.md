@@ -296,11 +296,32 @@ void Awake()
 </p>
 </details>
 
-**16. Question: **
+**16. Question: What is the difference between abstract class and interface?**
 
 <details><summary>Answer</summary>
 <p>
 
+
+- **Abstract classes and interfaces** are both mechanisms in object-oriented programming that allow you to define contracts for classes. However, there are some key differences between them:
+
+- **Method Implementation**:
+  - Abstract Class: Can have both abstract (methods without a body) and concrete (methods with a body) methods. Abstract classes can also have fields (variables).
+  - Interface: Can only declare abstract methods. In Java, before Java 8, interfaces could not have any method implementations. However, with Java 8, interfaces can have default and static methods with implementations.
+- **Multiple Inheritance**:
+  - Abstract Class: A class can extend only one abstract class.
+  - Interface: A class can implement multiple interfaces. This allows for a form of multiple inheritance in Java and languages with similar features.
+- **Constructor**:
+  - Abstract Class: Can have a constructor. It is called when an object of the class is instantiated.
+  - Interface: Cannot have a constructor. Interfaces do not participate in the instantiation of objects.
+- **Access Modifiers**:
+  - Abstract Class: Can have access modifiers for its members (public, private, protected, etc.).
+  - Interface: All methods in an interface are implicitly public and abstract (before Java 8), and public and abstract (default) or public and static (Java 8 and later).
+- **Fields (Variables)**:
+  - Abstract Class: Can have instance variables (fields).
+  - Interface: Can have only static final variables, which are essentially constants.
+- **Usage**:
+  - Abstract Class: Used when a common base implementation is needed across multiple classes, and you want to provide a default implementation for some methods.
+  - Interface: Used when you want to provide a contract that multiple classes can adhere to, especially when those classes may not share a common base implementation.
 
 </p>
 </details>
