@@ -376,11 +376,12 @@ public enum Direction
 </p>
 </details>
 
-**19. Question: **
+**19. Question: What make folder Resources in Unity special?**
 
 <details><summary>Answer</summary>
 <p>
 
+- In Unity, folder **Resources** that allows you to load assets at runtime using the Resources.Load method. Assets placed in the "Resources" folder are treated as part of the project's runtime data and can be accessed dynamically.
 
 </p>
 </details>
