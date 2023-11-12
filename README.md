@@ -193,7 +193,7 @@ Decription: who graduated and start working at company. Working with Unity less 
 <details><summary>Answer</summary>
 <p>
 
-- Answer: While the main thread is running, another piece of logic processing is started at the same time to assist the execution of the current program. In other words, starting a coroutine is to start a logic that can be parallel to the program. Can be used to control motion, sequences, and object behavior.
+- While the main thread is running, another piece of logic processing is started at the same time to assist the execution of the current program. In other words, starting a **coroutine** is to start a logic that can be parallel to the program. Can be used to control motion, sequences, and object behavior.
     
 </p>
 </details>
@@ -241,7 +241,7 @@ Decription: who graduated and start working at company. Working with Unity less 
 <details><summary>Answer</summary>
 <p>
 
-- Reusing GameObjects after being destroyed such as artillery shells, fx, etc. costs memory each time they are destroyed and created. Using Pooling is understood as just hiding the GameObject, then resetting its position, rotation angle, etc. and displaying it again when used. This helps increase game performance significantly.
+- Reusing GameObjects after being destroyed such as artillery shells, fx, etc. costs memory each time they are destroyed and created. Using **Pooling** is understood as just hiding the GameObject, then resetting its position, rotation angle, etc. and displaying it again when used. This helps increase game performance significantly.
 
 </p>
 </details>
@@ -399,6 +399,206 @@ public enum Direction
 
 # Junior
 Decription: who have 1-5 years work with Unity.
+
+**1. Question: **
+
+<details><summary>Answer</summary>
+<p>
+
+- 
+
+</p>
+</details>
+
+**2. Question: **
+
+<details><summary>Answer</summary>
+<p>
+
+- 
+
+</p>
+</details>
+
+**3. Question: **
+
+<details><summary>Answer</summary>
+<p>
+
+- 
+
+</p>
+</details>
+
+**4. Question: **
+
+<details><summary>Answer</summary>
+<p>
+
+- 
+
+</p>
+</details>
+
+**5. Question: **
+
+<details><summary>Answer</summary>
+<p>
+
+- 
+
+</p>
+</details>
+
+**6. Question: **
+
+<details><summary>Answer</summary>
+<p>
+
+- 
+
+</p>
+</details>
+
+**7. Question: **
+
+<details><summary>Answer</summary>
+<p>
+
+- 
+
+</p>
+</details>
+
+**8. Question: **
+
+<details><summary>Answer</summary>
+<p>
+
+- 
+
+</p>
+</details>
+
+**9. Question: **
+
+<details><summary>Answer</summary>
+<p>
+
+- 
+
+</p>
+</details>
+
+**10. Question: **
+
+<details><summary>Answer</summary>
+<p>
+
+- 
+
+</p>
+</details>
+
+**11. Question: **
+
+<details><summary>Answer</summary>
+<p>
+
+- 
+
+</p>
+</details>
+
+**12. Question: **
+
+<details><summary>Answer</summary>
+<p>
+
+- 
+
+</p>
+</details>
+
+**13. Question: **
+
+<details><summary>Answer</summary>
+<p>
+
+- 
+
+</p>
+</details>
+
+**14. Question: **
+
+<details><summary>Answer</summary>
+<p>
+
+- 
+
+</p>
+</details>
+
+**15. Question: **
+
+<details><summary>Answer</summary>
+<p>
+
+- 
+
+</p>
+</details>
+
+**16. Question: **
+
+<details><summary>Answer</summary>
+<p>
+
+- 
+
+</p>
+</details>
+
+**17. Question: **
+
+<details><summary>Answer</summary>
+<p>
+
+- 
+
+</p>
+</details>
+
+**18. Question: **
+
+<details><summary>Answer</summary>
+<p>
+
+- 
+
+</p>
+</details>
+
+**19. Question: **
+
+<details><summary>Answer</summary>
+<p>
+
+- 
+
+</p>
+</details>
+
+**20. Question: **
+
+<details><summary>Answer</summary>
+<p>
+
+- 
+
+</p>
+</details>
 
 # Senior
 Decription: practically who have more than 5 years working with Unity and base on knowledge.
