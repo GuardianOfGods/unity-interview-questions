@@ -400,22 +400,42 @@ public enum Direction
 # Junior
 Decription: who have 1-5 years work with Unity.
 
-**1. Question: **
+**1. Question: There are some special folder names in Unity. What are there?**
 
 <details><summary>Answer</summary>
 <p>
 
-- 
+- **Assets**:
+  - The root folder of your Unity project, containing all assets.
+- **Editor**:
+  - Scripts placed in this folder are considered Editor scripts and will only be included in the Unity Editor build, not in the final game or application.
+- **Resources**:
+  - Assets placed in this folder can be loaded at runtime using Resources.Load.
+- **Plugins**:
+  - Used for native plugins that extend Unity's functionality using native code (e.g., DLLs).
+- **Standard Assets**:
+  - A folder that Unity recognizes for its Standard Assets packages.
+- **StreamingAssets**:
+  - Assets placed here are included in the build as-is and can be accessed at runtime.
+- **Gizmos**:
+  - Contains Gizmo icons that can be used in the scene view for custom visualization.
+- **Editor Default Resources**:
+  - Stores default resources used by the Unity Editor.
 
 </p>
 </details>
 
-**2. Question: **
+**2. Question: Which of the following definitions is incorrect?**
+1. If the variable is an **integer**, the default value of the variable is 0.
+2. If the variable is a **reference type**, the default value of the variable is null.
+3. If the variable is a **string**, the default value of the variable is an empty string.
+4. If the variable is a **boolean**, the default value of the variable is false.
 
 <details><summary>Answer</summary>
 <p>
 
-- 
+- The correct answer to your question is **Statement 3**.
+  - Including C# and many others, the default value for a string variable is **null**, not an empty string.
 
 </p>
 </details>
