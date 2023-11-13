@@ -515,18 +515,41 @@ Decription: who have 1-5 years work with Unity.
 <details><summary>Answer</summary>
 <p>
 
-- If dynamic objects share the same material, Unity will automatically batch these objects. Dynamic batch processing operations are completed automatically and do not require you to perform additional operations.
+- If dynamic objects share the same material, Unity will automatically batch these objects. **Dynamic batch** processing operations are completed automatically and do not require you to perform additional operations.
 - The difference: everything in **dynamic batch** processing is automatic, no operations are required, and objects can be moved, but there are many restrictions. **Static batch** processing: high degree of freedom, few restrictions, disadvantages may occupy more memory, and all objects after static batch processing can no longer be moved.
 
 </p>
 </details>
 
-**9. Question: **
+**9. Question: What difference between heap and stack memory in C#?**
 
 <details><summary>Answer</summary>
 <p>
 
-- 
+- **Stack**:
+  - **Purpose**: The stack in C# is used for managing the execution of methods and storing local variables.
+  - **Memory Allocation**: Memory for variables on the stack is managed automatically by the compiler during runtime.
+  - **Lifetime**: Variables on the stack have a limited lifetime, tied to the scope of a method or function.
+  - **Size**: The stack has a limited size, and memory allocation is fast due to a simple pointer adjustment.
+  - **Example**: Variables like primitive data types, references, and local variables are stored on the stack.
+csharp
+```
+int localVar = 42; // localVar is on the stack
+```
+- **Heap**:
+  - **Purpose**: The heap in C# is used for dynamic memory allocation, where you manually allocate and deallocate memory for objects.
+  - **Memory Allocation**: Memory on the heap is managed explicitly by the programmer in C# using operators like new and delete (or using constructors and destructors in C++).
+  - **Lifetime**: Variables on the heap can have a longer lifetime than stack variables. They persist until explicitly deallocated.
+  - **Size**: The heap can grow dynamically based on the needs of your C# application.
+  - **Example**: Objects like classes, arrays, and large data structures are allocated on the heap.
+csharp
+```
+class MyClass {
+    // Class members
+}
+
+MyClass myObject = new MyClass(); // myObject is on the heap
+```
 
 </p>
 </details>
