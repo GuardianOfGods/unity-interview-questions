@@ -670,12 +670,15 @@ Decription: practically who have more than 5 years working with Unity and base o
 </p>
 </details>
 
-**3. Question: **
+**3. Question: What are the various levels of the TCP/IP protocol stack and their respective functions?**
 
 <details><summary>Answer</summary>
 <p>
 
-
+- **Network interface layer**: This is the lowest layer of the protocol stack, corresponding to the physical layer and data link layer of OSI. It mainly completes the actual sending and receiving of data frames.
+- **Network layer**: handles the activities of packets in the network, such as routing and forwarding. This layer mainly includes IP protocol, ARP, ICMP protocol, etc.
+- **Transport layer**: The main function is to provide communication between applications. This layer is mainly TCP/UDP protocol.
+- **Application layer**: used to handle specific applications, and provides different protocols for different applications, such as the FTP protocol used for file transfer, SMTP used for sending emails, etc.
 
 </p>
 </details>
