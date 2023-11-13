@@ -440,32 +440,51 @@ Decription: who have 1-5 years work with Unity.
 </p>
 </details>
 
-**3. Question: **
+**3. Question:Seven: Briefly describe the role of quaternion and the advantages of quaternion over Euler angles?**
 
 <details><summary>Answer</summary>
 <p>
 
-- 
+- **Quaternions** are used to represent rotations. The advantages of relative **Euler angles**: it can perform incremental rotation, avoid universal lock, and there are two ways of expressing a given orientation, which are mutually negative (Euler angles have countless ways of expression)
 
 </p>
 </details>
 
-**4. Question: **
+**4. Question: What is the difference between material and sharedmaterial in MeshRender?**
 
 <details><summary>Answer</summary>
 <p>
 
-- 
+- Modifying **sharedMaterial** will change the appearance of all objects using this material, and will also change the material settings stored in the project. Modifying the **material** returned by sharedMaterial is not recommended. If you want to modify the renderer's material, use material instead.
 
 </p>
 </details>
 
-**5. Question: **
+**5. Question: Unity provides several light sources. What are they?**
 
 <details><summary>Answer</summary>
 <p>
 
-- 
+- Directional Light:
+  - Simulates distant light sources such as the sun.
+  - Illuminates all objects in the scene with parallel light rays.
+- Point Light:
+  - Emits light in all directions from a specific point in space.
+  - Commonly used to simulate light bulbs or other localized light sources.
+- Spotlight:
+  - Emits light in a cone shape from a specific point in space.
+  - Can be used to simulate flashlights or focused light sources.
+- Area Light:
+  - Represents a rectangular light source.
+  - Useful for simulating large light sources, such as a window or a screen.
+- Light Probe:
+  - Used for dynamic global illumination.
+  - Captures and stores lighting information at specific points in the scene.
+- Reflection Probe:
+  - Captures a 360-degree view of the scene's surroundings.
+  - Used for calculating reflections and lighting for reflective surfaces.
+- Real-time Global Illumination (GI):
+  - Unity also provides a real-time global illumination system that allows dynamic lighting changes to affect the scene's lighting in real-time.
 
 </p>
 </details>
