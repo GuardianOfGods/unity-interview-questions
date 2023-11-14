@@ -158,10 +158,8 @@ Decription: who graduated and start working at company. Working with Unity less 
 <p>
 
 - **Stacks and queues** are both data structures that organize and manage collections of elements, but they differ in how elements are added and removed.
-
 - **Stack**:
 	- **Last In, First Out (LIFO)**: The last element added to the stack is the first one to be removed. Elements are added and removed from the same end, often referred to as the "top" of the stack. Common operations include push (to add an element) and pop (to remove the last-added element).
-
 - **Queue**
 	- **First In, First Out (FIFO)**: The first element added to the queue is the first one to be removed. Elements are added at one end (rear or back) and removed from the other end (front). Common operations include enqueue (to add an element) and dequeue (to remove the first-added element).
     
@@ -554,12 +552,18 @@ MyClass myObject = new MyClass(); // myObject is on the heap
 </p>
 </details>
 
-**10. Question: **
+**10. Question: What is the term SOLID in Object-Oriented Programming?**
 
 <details><summary>Answer</summary>
 <p>
 
-- 
+In the context of **Object-Oriented Programming** (OOP), the term "**solid**" often refers to the SOLID principles. SOLID is an acronym that represents a set of design principles aimed at creating more maintainable, scalable, and flexible software. Each letter in SOLID stands for a specific principle:
+
+- **S - Single Responsibility Principle (SRP)**: A class should have only one reason to change, meaning that it should have only one responsibility or job.
+- **O - Open/Closed Principle (OCP)**: Software entities (classes, modules, functions, etc.) should be open for extension but closed for modification. This encourages the use of inheritance and polymorphism to extend behavior without modifying existing code.
+- **L - Liskov Substitution Principle (LSP)**: Subtypes must be substitutable for their base types without altering the correctness of the program. In other words, objects of a superclass should be replaceable with objects of a subclass without affecting the functionality of the program.
+- **I - Interface Segregation Principle (ISP)**: A class should not be forced to implement interfaces it does not use. This principle promotes creating specific, smaller interfaces rather than a large, general one.
+- **D - Dependency Inversion Principle (DIP)**: High-level modules should not depend on low-level modules. Both should depend on abstractions. Additionally, abstractions should not depend on details; details should depend on abstractions. This encourages the use of dependency injection and inversion of control.
 
 </p>
 </details>
