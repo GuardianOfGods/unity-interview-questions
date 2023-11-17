@@ -568,12 +568,19 @@ In the context of **Object-Oriented Programming** (OOP), the term "**solid**" of
 </p>
 </details>
 
-**11. Question: **
+**11. Question: How many string was created?**
+
+```
+void Start()
+{
+int year = 2023;
+String str = "Hello " + "World " + $"{year}";
+}
 
 <details><summary>Answer</summary>
 <p>
 
-- 
+- 3 strings.
 
 </p>
 </details>
