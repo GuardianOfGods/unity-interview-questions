@@ -568,19 +568,21 @@ In the context of **Object-Oriented Programming** (OOP), the term "**solid**" of
 </p>
 </details>
 
-**11. Question: How many string was created?**
-
-```
-void Start()
-{
-int year = 2023;
-String str = "Hello " + "World " + $"{year}";
-}
+**11. When should you use array and when should you use list?**
 
 <details><summary>Answer</summary>
 <p>
 
-- 3 strings.
+- Use an Array when:
+  - **Fixed Size**: If you know the size of your collection won't change, or if it's beneficial to have a fixed-size collection, then an array may be more suitable.
+  - **Performance**: Arrays can be more performant in terms of access time, especially for large collections, because elements are stored in contiguous memory.
+  - **Memory Efficiency**: If memory efficiency is critical, and you can determine the maximum size of your collection in advance, an array may be more memory-efficient compared to a list.
+  - **Static Type**: If you need a collection of elements of a specific type, and that type won't change, arrays are statically typed and might be a better fit.
+- Use a List when:
+  - **Dynamic Size**: If the size of your collection can change during runtime, or if you need a collection that can grow or shrink dynamically, a list is more appropriate.
+  - **Ease of Use**: Lists provide more convenience and flexibility in terms of adding, removing, and manipulating elements. They have built-in methods for various operations.
+  - **Unknown Size**: If you don't know the size of your collection in advance or if it can vary, a list allows you to add elements without worrying about preallocating a fixed size.
+  - **Dynamic Type**: If your collection needs to store elements of different types or if the type of elements can change, a list (specifically List<T> in C#) is dynamic and can handle this scenario.
 
 </p>
 </details>
