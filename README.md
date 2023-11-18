@@ -587,12 +587,13 @@ In the context of **Object-Oriented Programming** (OOP), the term "**solid**" of
 </p>
 </details>
 
-**12. Question: **
+**12. Question: Talk about what you know about easing in animation. Give some examples in Unity**
 
 <details><summary>Answer</summary>
 <p>
 
-- 
+- In animation, **easing** is a technique used to control the acceleration or deceleration of an animated property over time, creating more natural and visually pleasing motion. The goal is to make animations appear smoother and more lifelike by adjusting the speed of movement during different phases of the animation.
+- Some examples of easing animation: clicking button, moving object, make bounce effect, etc ...
 
 </p>
 </details>
