@@ -598,7 +598,7 @@ In the context of **Object-Oriented Programming** (OOP), the term "**solid**" of
 </p>
 </details>
 
-**13. Question: What is the return type of Predicate<T>()?**
+**13. Question: What is the return type of ```Predicate<T>()```?**
 
 <details><summary>Answer</summary>
 <p>
