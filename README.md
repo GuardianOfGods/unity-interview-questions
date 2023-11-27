@@ -633,12 +633,14 @@ In the context of **Object-Oriented Programming** (OOP), the term "**solid**" of
 </p>
 </details>
 
-**15. Question: **
+**15. Question: What is the purpose of using unity' physic materials components?**
 
 <details><summary>Answer</summary>
 <p>
 
-- 
+- The Unity **Physics Material** component is used to define the physical properties of an object, such as its **friction** and **bounciness**.
+- It allows developers to **fine-tune** the interactions between different objects in a scene, such as when they collide with each other or when they interact with otherphysics-based components.
+- This allows for more **realistic physics simulation** and better control over the physical behavior of objects in a Unity game.
 
 </p>
 </details>
