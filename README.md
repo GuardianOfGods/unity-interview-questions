@@ -645,42 +645,51 @@ In the context of **Object-Oriented Programming** (OOP), the term "**solid**" of
 </p>
 </details>
 
-**16. Question: **
+**16. Question: What is the use of collision matrix in Unity?**
 
 <details><summary>Answer</summary>
 <p>
 
-- 
+- For each new layer, a new column and roware added on the **collision matrix**. This matrix is responsible for defining interactions between layers.
 
 </p>
 </details>
 
-**17. Question: **
+**17. Question: Explain why Time.deltatime should be used To make things that depend on time operate correctly?**
 
 <details><summary>Answer</summary>
 <p>
 
-- 
+- Real time applications, such as games, have a variable FPS. They sometimes run at 60FPS, or when suffering slowdowns, they will run on 40FPS or less.
+- If you want to change a value from A to B in 1.0 seconds you can't simply increase A by B-A between two frames because frames can run fast or slow, so one frame can have different durations.
+- The way to correct this is to measure the time taken from frame X to X+1 and increment A, leveraging this change with the frame duration deltaTime by doing A += (B-A) * Delta Time.
+- When the accumulated DeltaTime reaches 1.0 second, A will have assumed B value.
 
 </p>
 </details>
 
-**18. Question: **
+**18. Question: Difference between Update, Fixed Update and Late Update?**
 
 <details><summary>Answer</summary>
 <p>
 
-- 
+- **Update()** is called on every Frame, regardless of time passed since last frame
+  - Good for Movement, InputControl etc. (most of the time you'll use Update)
+  - Usually you will use Time.DeltaTime to take passed time into account (e.g. for GameObject Translations)
+- **LateUpdate()** is called after all Update() methods are processed
+  - So e.g. for the camera that follows your character it's good to Update after it has moved
+- **Fixed Update()** is called by the physics engine in fixed intervals (that can beset in the Options)
 
 </p>
 </details>
 
-**19. Question: **
+**19. Question: What is the use of Occlusion Culling?**
 
 <details><summary>Answer</summary>
 <p>
 
-- 
+- **Occlusion culling** is a process which prevents Unity from performing rendering calculations for GameObjects that are completely hidden from view (occluded) by other GameObjects.
+- Every frame, Cameras perform culling operations that examine the Renderers in the Scene and exclude (cull) those that do not need to be drawn. By default, Cameras perform frustum culling, which excludes all Renderers that do not fall within the Camera's view frustum.
 
 </p>
 </details>
