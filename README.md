@@ -705,12 +705,12 @@ In the context of **Object-Oriented Programming** (OOP), the term "**solid**" of
 </p>
 </details>
 
-**20. Question: **
+**20. Question: Explain the LOD mechanism?**
 
 <details><summary>Answer</summary>
 <p>
 
-- 
+- The **Level of Detail (LOD)** mechanism in computer graphics optimizes rendering performance by dynamically adjusting the complexity of 3D objects based on their distance from the viewer. Objects have multiple detail levels (LODs), and the mechanism switches between them as needed. This process improves rendering efficiency by using higher LODs for closer objects and lower LODs for those farther away, reducing the number of processed vertices. LOD transitions are often implemented smoothly to avoid visual artifacts. The manual or automated creation of LODs allows for adaptive management, enhancing performance in real-time applications like games. Overall, LOD strikes a balance between visual quality and computational efficiency in 3D rendering.
 
 </p>
 </details>
