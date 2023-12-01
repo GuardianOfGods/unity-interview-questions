@@ -689,7 +689,7 @@ In the context of **Object-Oriented Programming** (OOP), the term "**solid**" of
 <p>
 
 - **Occlusion culling** is a process which prevents Unity from performing rendering calculations for GameObjects that are completely hidden from view (occluded) by other GameObjects.
-- Every frame, Cameras perform culling operations that examine the Renderers in the Scene and exclude (cull) those that do not need to be drawn. By default, Cameras perform frustum culling, which excludes all Renderers that do not fall within the Camera's view frustum.
+- Every frame, **Cameras** perform culling operations that examine the **Renderers** in the Scene and exclude (cull) those that do not need to be drawn. By default, Cameras perform frustum culling, which excludes all Renderers that do not fall within the Camera's view frustum.
 
 </p>
 </details>
