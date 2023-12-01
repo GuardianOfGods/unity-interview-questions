@@ -98,6 +98,16 @@ Popular game engines include **Unity**, **Unreal Engine**, and **CryEngine**. Ga
 </p>
 </details>
 
+**5. Question: What is 2.5D in Unity.**
+
+<details><summary>Answer</summary>
+<p>
+
+- It's basically using 2D physics combinded with 3D graphics.
+
+</p>
+</details>
+
 **5. Question: List some popular  games make by Unity?**
 
 <details><summary>Answer</summary>
