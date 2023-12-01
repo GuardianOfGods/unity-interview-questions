@@ -714,6 +714,106 @@ In the context of **Object-Oriented Programming** (OOP), the term "**solid**" of
 </p>
 </details>
 
+**21. Question: **
+
+<details><summary>Answer</summary>
+<p>
+
+- 
+
+</p>
+</details>
+
+**22. Question: **
+
+<details><summary>Answer</summary>
+<p>
+
+- 
+
+</p>
+</details>
+
+**23. Question: **
+
+<details><summary>Answer</summary>
+<p>
+
+- 
+
+</p>
+</details>
+
+**24. Question: **
+
+<details><summary>Answer</summary>
+<p>
+
+- 
+
+</p>
+</details>
+
+**25. Question: **
+
+<details><summary>Answer</summary>
+<p>
+
+- 
+
+</p>
+</details>
+
+**26. Question: **
+
+<details><summary>Answer</summary>
+<p>
+
+- 
+
+</p>
+</details>
+
+**27. Question: **
+
+<details><summary>Answer</summary>
+<p>
+
+- 
+
+</p>
+</details>
+
+**28. Question: **
+
+<details><summary>Answer</summary>
+<p>
+
+- 
+
+</p>
+</details>
+
+**29. Question: **
+
+<details><summary>Answer</summary>
+<p>
+
+- 
+
+</p>
+</details>
+
+**30. Question: **
+
+<details><summary>Answer</summary>
+<p>
+
+- 
+
+</p>
+</details>
+
 # Senior
 Decription: practically who have more than 5 years working with Unity and base on knowledge.
 
