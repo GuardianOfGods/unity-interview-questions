@@ -715,12 +715,13 @@ In the context of **Object-Oriented Programming** (OOP), the term "**solid**" of
 </p>
 </details>
 
-**21. Question: **
+**21. Question: How do you understand ragdolls in the game? Let's talk about the principles of setting up a character with a ragdoll.**
 
 <details><summary>Answer</summary>
 <p>
 
-- 
+- In the context of video games, a **ragdoll** refers to a physics-based simulation of a character's body movement when it is subjected to external forces, such as collisions or explosions. This simulation is used to create more realistic and dynamic character animations, especially in situations where predefined animations might not be appropriate or feasible.
+- To set up a **ragdoll**, you need to attach **rigidbodies** and **colliders** to the main parts of the character's body. Afterward, you will use **joints** (character joint, hinge joint, etc.) to create articulations for these parts.
 
 </p>
 </details>
