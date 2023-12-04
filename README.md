@@ -928,11 +928,11 @@ Decription: practically who have more than 5 years working with Unity and base o
 </p>
 </details>
 
-## LICENSE
+# LICENSE
 Open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
 
-## You can support me via
-
+# Support
+- If you like this topic, you can give this repository a star ⭐
+- I would greatly appreciate it if you could support me with a cup of coffee
 <a href="https://www.buymeacoffee.com/HoangVanThu">
   <img src="https://www.the3rdsequence.com/texturedb/images/donate/buymeacoffee.svg" width="200" height="47"/>
-</a>
