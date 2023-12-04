@@ -1,10 +1,10 @@
 <div align="center">
-	<img width="800" src="https://github.com/GuardianOfGods/unity-interview-questions/assets/52252046/c658bd6c-58be-4d01-94fa-12cda489935b"> 
+<img width="800" src="https://github.com/GuardianOfGods/unity-interview-questions/assets/52252046/c658bd6c-58be-4d01-94fa-12cda489935b">
 </div>
 
 ---
 # Unity Interview Questions
-👋 **Hi there, I'm HoangVanThu.** These are questions I interviewed and also collected on websites. I hope it helps you a lots. <br>
+👋 **Hi there, I'm HoangVanThu.** These are questions I interviewed and also collected on websites. I hope it helps you a lot.  <br>
 Let's answer the questions and achieve your goals !!
 
 **Question by level:**
@@ -14,18 +14,18 @@ Let's answer the questions and achieve your goals !!
 - [Middle Junior](#Middle-Junior)
 - [Senior](#Senior)
 # Intern
-Decription: who study in school and work at company at the same time.
+Description: who study in school and work at a company at the same time.
 
-**1. Question: There are many game genres. Can you name some games genres?**
+**1. Question: There are many game genres. Can you name some game genres?**
 
 <details><summary>Answer</summary>
 <p>
 
-- **Action** games are a broad genre that typically involves player-controlled characters engaging in various challenges, missions, or activities that require quick reflexes, hand-eye coordination, and a focus on physical challenges. These games often feature a combination of combat, exploration, and puzzle-solving. Action games can further be categorized into sub-genres like platformers, beat 'em ups, and more. Example:  "Super Mario Bros", "Devil May Cry" and "Uncharted."
+- **Action** games are a broad genre that typically involves player-controlled characters engaging in various challenges, missions, or activities that require quick reflexes, hand-eye coordination, and a focus on physical challenges. These games often feature a combination of combat, exploration, and puzzle-solving. Action games can further be categorised into sub-genres like platformers, beat 'em ups, and more. Example: "Super Mario Bros", "Devil May Cry" and "Uncharted."
 - **Platformer** games, also known as platform games, are a genre where the main gameplay revolves around controlling a character to navigate through a series of platforms and levels. The player must jump, run, and sometimes solve puzzles to progress through the game. The term "platformer" comes from the platforms, or surfaces, that the character moves across. Example: "Super Mario Bros.," "Sonic the Hedgehog," and "Donkey Kong."
-- **RPG** stands for Role-Playing Game. In RPG games, players take on the roles of characters within a fictional world. These games often involve a rich narrative, character development, and decision-making that can impact the game's storyline. Players typically have the freedom to customize their characters, choosing their abilities, appearance, and sometimes even moral alignment. Examples include "The Legend of Zelda" series and the "Dark Souls" series.
+- **RPG** stands for Role-Playing Game. In RPG games, players take on the roles of characters within a fictional world. These games often involve a rich narrative, character development, and decision-making that can impact the game's storyline. Players typically have the freedom to customise their characters, choosing their abilities, appearance, and sometimes even moral alignment. Examples include "The Legend of Zelda" series and the "Dark Souls" series.
 - **FPS** stands for First-Person Shooter, which is a sub-genre of action games. In FPS games, players experience the game from a first-person perspective, meaning the game's viewpoint is through the eyes of the player character. The primary focus of FPS games is on combat, and players typically use firearms or other ranged weapons to engage enemies. Example: "Call of duty", "Counter Strike"
-- **Simulation** games are a genre that aims to replicate real-world activities or systems in a virtual environment. These games often prioritize realism and accuracy in depicting various aspects of life, ranging from economic and social simulations to more specific activities like farming, flight, or driving. Simulation games can be educational or purely entertaining. Example: "Microsoft Flight Simulator", "SimCity", "Stardew Valley".
+- **Simulation** games are a genre that aims to replicate real-world activities or systems in a virtual environment. These games often prioritise realism and accuracy in depicting various aspects of life, ranging from economic and social simulations to more specific activities like farming, flying, or driving. Simulation games can be educational or purely entertaining. Example: "Microsoft Flight Simulator", "SimCity", "Stardew Valley".
 - Etc.
 
 </p>
@@ -37,37 +37,37 @@ Decription: who study in school and work at company at the same time.
 <p>
 
 - **Desktop**:
-  - Windows (PC)
-  - Mac
-  - Universal Windows Platform (UWP)
-  - Linux Standalone
+- Windows (PC)
+- Mac
+- Universal Windows Platform (UWP)
+- Linux Standalone
 - **Mobile**:
-  - iOS
-  - Android
+- iOS
+- Android
 - **Extended Reality (XR)**:
-  - ARKit
-  - ARCore
-  - Microsoft HoloLens
-  - Windows Mixed Reality
-  - Magic Leap (Lumin)
-  - Oculus
-  - PlayStation VR
+- ARKit
+- ARCore
+- Microsoft HoloLens
+- Windows Mixed Reality
+- Magic Leap (Lumin)
+- Oculus
+- PlayStation VR
 - **Consoles**:
-  - PS5
-  - PS4
-  - Xbox One
-  - Xbox X|S
-  - Nintendo Switch
-  - Google Stadia
-  - WebGL
+- PS5
+- PS4
+- Xbox One
+- Xbox X|S
+- Nintendo Switch
+- Google Stadia
+- WebGL
 - **Embedded**:
-  - Embedded Linux
-  - QNX
+- Embedded Linux
+- QNX
 
 </p>
 </details>
 
-**3. Question: What is FPS? How does FPS affect to the game?**
+**3. Question: What is FPS? How does FPS affect to game?**
 
 <details><summary>Answer</summary>
 <p>
@@ -85,14 +85,14 @@ Decription: who study in school and work at company at the same time.
 - **A game engine** is a software framework designed to facilitate the creation and development of video games. It provides developers with a set of tools, libraries, and features that streamline the game development process, allowing them to focus on creating game content rather than dealing with low-level programming tasks.
 
 - **Key components** of a game engine include:
-  - **Rendering Engine**: Manages graphics, rendering 2D or 3D visuals, and handling aspects like lighting, shadows, and special effects.
-  - **Physics Engine**: Simulates real-world physics, determining how objects interact with each other, respond to gravity, collisions, etc.
-  - **Audio Engine**: Handles sound effects, music, and overall audio output within the game.
-  - **Scripting Engine**: Allows developers to write scripts or code to control game logic, events, and behavior. This often uses programming languages like C++, Python, or a proprietary scripting language.
-  - **Asset Pipeline**: Manages the import, processing, and integration of game assets such as 3D models, textures, sound files, etc.
-  - **Networking**: Provides tools for multiplayer functionality, enabling communication between players and managing online features.
-  - **Input Handling**: Manages user input from devices like keyboards, mice, controllers, and touchscreens.
-  - **Scene Graph**: Represents the hierarchical structure of the game world, defining how objects are arranged and interact.
+- **Rendering Engine**: Manages graphics, rendering 2D or 3D visuals, and handling aspects like lighting, shadows, and special effects.
+- **Physics Engine**: Simulates real-world physics, determining how objects interact with each other, respond to gravity, collisions, etc.
+- **Audio Engine**: Handles sound effects, music, and overall audio output within the game.
+- **Scripting Engine**: Allows developers to write scripts or code to control game logic, events, and behavior. This often uses programming languages like C++, Python, or a proprietary scripting language.
+- **Asset Pipeline**: Manages the import, processing, and integration of game assets such as 3D models, textures, sound files, etc.
+- **Networking**: Provides tools for multiplayer functionality, enabling communication between players and managing online features.
+- **Input Handling**: Manages user input from devices like keyboards, mice, controllers, and touchscreens.
+- **Scene Graph**: Represents the hierarchical structure of the game world, defining how objects are arranged and interact.
 
 Popular game engines include **Unity**, **Unreal Engine**, and **CryEngine**. Game developers leverage these engines to accelerate development, reduce repetitive tasks, and achieve a level of consistency in game design and performance.
 
@@ -104,12 +104,12 @@ Popular game engines include **Unity**, **Unreal Engine**, and **CryEngine**. Ga
 <details><summary>Answer</summary>
 <p>
 
-- It's basically using 2D physics combinded with 3D graphics.
+- It's basically using 2D physics combined with 3D graphics.
 
 </p>
 </details>
 
-**5. Question: List some popular  games make by Unity?**
+**5. Question: List some popular games made by Unity?**
 
 <details><summary>Answer</summary>
 <p>
@@ -120,7 +120,8 @@ Popular game engines include **Unity**, **Unreal Engine**, and **CryEngine**. Ga
 </details>
 
 # Fresher
-Decription: who graduated and start working at company. Working with Unity less than 1 year. If you have none Unity experience, you should see the questions of intern.
+
+Description: who graduated and started working at the company. Working with Unity less than a year. If you have no Unity experience, you should see the questions of the intern.
 
 **1. Question: Name some important tab components of Unity 3D.**
 
@@ -142,48 +143,48 @@ Decription: who graduated and start working at company. Working with Unity less 
 <details><summary>Answer</summary>
 <p>
 
-- **Object-oriented programming** is a programming paradigm, or classification, that organizes a group of data attributes with functions or methods into a unit, known as an object.
+- **Object-oriented programming** is a programming paradigm, or classification, that organises a group of data attributes with functions or methods into a unit, known as an object.
 
 - There are 4 principles of OOP:
-  - **Encapsulation** means to enclose data by containing it within an object. In OOP, encapsulation forms a barrier around data to protect it from the rest of the code. You can perform encapsulation by binding the data and its functions into a class. This action conceals the private details of a class and only exposes the functionality essential for interfacing with it. When a class doesn't allow direct access to its private data, it's well-encapsulated.
-  - **Abstraction** refers to using simplified classes, rather than complex implementation code, to access objects. Often, it's easier to design a program when you can separate the interface of a class from its implementation. In OOP, you can abstract the implementation details of a class and present a clean, easy-to-use interface through the class member functions. Abstraction helps isolate the impact of changes made to the code so if an error occurs, the change only affects the implementation details of a class and not the outside code.
-  - Most object-oriented languages support **Inheritance**, which means a new class automatically inhabits the same properties and functionalities as its parent class. Inheritance allows you to organize classes into hierarchies, where a class might have one or more parent or child classes. If a class has a parent class, it means the class has inherited the properties of the parent. The child class can also modify or extend the behavior of its parent class. Inheritance allows you to reuse code without redefining the functions of a child class.
-  - **Polymorphism** refers to creating objects with shared behaviors. In OOP, polymorphism allows for the uniform treatment of classes in a hierarchy. When you write code for objects at the root of the hierarchy, any objects created by a child class within the hierarchy have the same functions. Depending on the type of object, it may execute different behaviors.
-    
+- **Encapsulation** means to enclose data by containing it within an object. In OOP, encapsulation forms a barrier around data to protect it from the rest of the code. You can perform encapsulation by binding the data and its functions into a class. This action conceals the private details of a class and only exposes the functionality essential for interfacing with it. When a class doesn't allow direct access to its private data, it's well-encapsulated.
+- **Abstraction** refers to using simplified classes, rather than complex implementation code, to access objects. Often, it's easier to design a program when you can separate the interface of a class from its implementation. In OOP, you can abstract the implementation details of a class and present a clean, easy-to-use interface through the class member functions. Abstraction helps isolate the impact of changes made to the code, so if an error occurs, the change only affects the implementation details of a class and not the outside code.
+- Most object-oriented languages support **Inheritance**, which means a new class automatically inherits the same properties and functionalities as its parent class. Inheritance allows you to organise classes into hierarchies, where a class might have one or more parent or child classes. If a class has a parent class, it means the class has inherited the properties of the parent. The child class can also modify or extend the behaviour of its parent class. Inheritance allows you to reuse code without redefining the functions of a child class.
+- **Polymorphism** refers to creating objects with shared behaviors. In OOP, polymorphism allows for the uniform treatment of classes in a hierarchy. When you write code for objects at the root of the hierarchy, any objects created by a child class within the hierarchy have the same functions. Depending on the type of object, it may execute different behaviours.
+
 </p>
 </details>
 
-**3. Question: What are the necessary conditions for objects to collider?.**
+**3. Question: What are the necessary conditions for objects to collide?**
 
 <details><summary>Answer</summary>
 <p>
 
 - Both objects must have a Collider, and one of the objects must also have a Rigidbody.
-    
+
 </p>
 </details>
 
-**4. Question: What is the order in which OnEnable, Awake, and Start occur during runtime? Which ones are likely to occur repeatedly within the same object cycle?.**
+**4. Question: What is the order in which OnEnable, Awake, and Start occur during runtime? Which ones are likely to occur repeatedly within the same object cycle?**
 
 <details><summary>Answer</summary>
 <p>
 
 - **Awake** –> **OnEnable** -> **Start**. **OnEnable** can occur repeatedly in the same cycle!
-    
+
 </p>
 </details>
 
-**5. Question: What difference between stack and queue?**
+**5. Question: What is the difference between stack and queue?**
 
 <details><summary>Answer</summary>
 <p>
 
-- **Stacks and queues** are both data structures that organize and manage collections of elements, but they differ in how elements are added and removed.
+- **Stacks and queues** are both data structures that organise and manage collections of elements, but they differ in how elements are added and removed.
 - **Stack**:
-	- **Last In, First Out (LIFO)**: The last element added to the stack is the first one to be removed. Elements are added and removed from the same end, often referred to as the "top" of the stack. Common operations include push (to add an element) and pop (to remove the last-added element).
+- **Last In, First Out (LIFO)**: The last element added to the stack is the first one to be removed. Elements are added and removed from the same end, often referred to as the "top" of the stack. Common operations include push (to add an element) and pop (to remove the last-added element).
 - **Queue**
-	- **First In, First Out (FIFO)**: The first element added to the queue is the first one to be removed. Elements are added at one end (rear or back) and removed from the other end (front). Common operations include enqueue (to add an element) and dequeue (to remove the first-added element).
-    
+- **First In, First Out (FIFO)**: The first element added to the queue is the first one to be removed. Elements are added at one end (rear or back) and removed from the other end (front). Common operations include enqueue (to add an element) and dequeue (to remove the first-added element).
+
 </p>
 </details>
 
@@ -193,7 +194,7 @@ Decription: who graduated and start working at company. Working with Unity less 
 <p>
 
 - Instantiated when the game is running, prefab is equivalent to a template, making a default configuration for the materials, scripts, and parameters you already have to facilitate future modifications. The content packaged by prefab simplifies the export operation and facilitates team communication.
-    
+
 </p>
 </details>
 
@@ -203,7 +204,7 @@ Decription: who graduated and start working at company. Working with Unity less 
 <p>
 
 - Transform.Rotate()
-    
+
 </p>
 </details>
 
@@ -212,8 +213,8 @@ Decription: who graduated and start working at company. Working with Unity less 
 <details><summary>Answer</summary>
 <p>
 
-- While the main thread is running, another piece of logic processing is started at the same time to assist the execution of the current program. In other words, starting a **coroutine** is to start a logic that can be parallel to the program. Can be used to control motion, sequences, and object behavior.
-    
+- While the main thread is running, another piece of logic processing is started at the same time to assist the execution of the current program. In other words, starting a **coroutine** is to start a logic that can be parallel to the program. Can be used to control motion, sequences, and object behaviour.
+
 </p>
 </details>
 
@@ -223,11 +224,11 @@ Decription: who graduated and start working at company. Working with Unity less 
 <p>
 
 - There are several ways to move an object. Here are some common methods:
-  - **Transform Translate**
-  - **Rigidbody Velocity**
-  - **Rigidbody AddForce**
-  - **Transform Position**
-  - **Lerp Position**
+- **Transform Translate**
+- **Rigidbody Velocity**
+- **Rigidbody AddForce**
+- **Transform Position**
+- **Lerp Position**
 </p>
 </details>
 
@@ -239,23 +240,23 @@ Decription: who graduated and start working at company. Working with Unity less 
 - Unity games run on different devices with varying hardware capabilities. If you use fixed values for movement or animations without considering the frame rate, they might appear too fast on a high-performance device and too slow on a low-performance one.
 - **Time.deltaTime** represents the time it took to complete the last frame. Multiplying your movement or animation values by **Time.deltaTime** ensures that the speed remains consistent across different frame rates.
 - When you use **Time.deltaTime**, your game elements move or animate smoothly regardless of the frame rate. This is crucial for a consistent and enjoyable user experience.
-- Unity's physics engine relies on time to simulate realistic interactions between objects. Using **Time.deltaTime** in physics calculations ensures that the behavior of your game's physics remains consistent across various devices.
+- Unity's physics engine relies on time to simulate realistic interactions between objects. Using **Time.deltaTime** in physics calculations ensures that the behaviour of your game's physics remains consistent across various devices.
 - For effects that depend on time, such as fading, flashing, or pulsating, using **Time.deltaTime** allows you to control the speed of these effects based on the time elapsed, creating a more dynamic and visually appealing experience.
-    
+
 </p>
 </details>
 
-**11. Question: What is the difference between material and sharedmaterial in MeshRender?**
+**11. Question: What is the difference between material and shared material in MeshRender?**
 
 <details><summary>Answer</summary>
 <p>
 
-- Modifying **sharedMaterial** will change the appearance of all objects using this material, and will also change the material settings stored in the project. Modifying the **material** returned by sharedMaterial is not recommended. If you want to modify the renderer's material, use material instead.
+- Modifying **sharedMaterial** will change the appearance of all objects using this material and will also change the material settings stored in the project. Modifying the **material** returned by sharedMaterial is not recommended. If you want to modify the renderer's material, use material instead.
 
 </p>
 </details>
 
-**12. Question: Why using pooling object is important? How does it work in Unity?**
+**12. Question: Why is using object pooling important? How does it work in Unity?**
 
 <details><summary>Answer</summary>
 <p>
@@ -277,23 +278,23 @@ Decription: who graduated and start working at company. Working with Unity less 
 </p>
 </details>
 
-**14. Question: What are layers in unity used for?**
+**14. Question: What are layers in Unity used for?**
 
 <details><summary>Answer</summary>
 <p>
 
 - **Collision Detection**:
-  - Layers are often used to control which objects can collide with each other. By assigning GameObjects to specific layers, you can set up collision matrices to define which layers can interact with each other. This allows for fine-grained control over the physics interactions in your game.
-- **Raycasting**:
-  - When performing raycasts, you can specify which layers the ray should interact with. This is useful for targeting specific types of objects or ignoring others based on their layer assignments.
+- Layers are often used to control which objects can collide with each other. By assigning GameObjects to specific layers, you can set up collision matrices to define which layers can interact with each other. This allows for fine-grained control over the physics interactions in your game.
+- **Ray-casting**:
+- When performing raycasts, you can specify which layers the ray should interact with. This is useful for targeting specific types of objects or ignoring others based on their layer assignments.
 - **Rendering and Camera Culling**:
-  - Layers are used to control which objects are visible to specific cameras. This is essential for optimizing rendering performance. For example, you might have a camera that renders only the UI layer or a specific set of layers for certain visual effects.
+- Layers are used to control which objects are visible to specific cameras. This is essential for optimizing rendering performance. For example, you might have a camera that renders only the UI layer or a specific set of layers for certain visual effects.
 - **Audio Occlusion**:
-  - Layers can be used to control how audio interacts with different objects. For example, you might want certain objects to block or allow the passage of audio based on their layer assignments.
+- Layers can be used to control how audio interacts with different objects. For example, you might want certain objects to block or allow the passage of audio based on their layer assignments.
 - **Sorting Order**:
-  - In 2D games, layers are used to define the sorting order of sprites. Sprites on higher layers are rendered in front of sprites on lower layers, allowing you to control the visual hierarchy of 2D elements.
+- In 2D games, layers are used to define the sorting order of sprites. Sprites on higher layers are rendered in front of sprites on lower layers, allowing you to control the visual hierarchy of 2D elements.
 - **Organizing the Scene**:
-  - Layers help organize the GameObjects in the Unity Editor's Scene view. This makes it easier to select, manipulate, and manage objects within the scene.
+- Layers help organize the GameObjects in the Unity Editor's Scene view. This makes it easier to select, manipulate, and manage objects within the scene.
 
 </p>
 </details>
@@ -324,23 +325,23 @@ void Awake()
 - **Abstract classes and interfaces** are both mechanisms in object-oriented programming that allow you to define contracts for classes. However, there are some key differences between them:
 
 - **Method Implementation**:
-  - Abstract Class: Can have both abstract (methods without a body) and concrete (methods with a body) methods. Abstract classes can also have fields (variables).
-  - Interface: Can only declare abstract methods. In Java, before Java 8, interfaces could not have any method implementations. However, with Java 8, interfaces can have default and static methods with implementations.
+- Abstract Class: Can have both abstract (methods without a body) and concrete (methods with a body) methods. Abstract classes can also have fields (variables).
+- Interface: Can only declare abstract methods. In Java, before Java 8, interfaces could not have any method implementations. However, with Java 8, interfaces can have default and static methods with implementations.
 - **Multiple Inheritance**:
-  - Abstract Class: A class can extend only one abstract class.
-  - Interface: A class can implement multiple interfaces. This allows for a form of multiple inheritance in Java and languages with similar features.
+- Abstract Class: A class can extend only one abstract class.
+- Interface: A class can implement multiple interfaces. This allows for a form of multiple inheritance in Java and languages with similar features.
 - **Constructor**:
-  - Abstract Class: Can have a constructor. It is called when an object of the class is instantiated.
-  - Interface: Cannot have a constructor. Interfaces do not participate in the instantiation of objects.
+- Abstract Class: Can have a constructor. It is called when an object of the class is instantiated.
+- Interface: Cannot have a constructor. Interfaces do not participate in the instantiation of objects.
 - **Access Modifiers**:
-  - Abstract Class: Can have access modifiers for its members (public, private, protected, etc.).
-  - Interface: All methods in an interface are implicitly public and abstract (before Java 8), and public and abstract (default) or public and static (Java 8 and later).
+- Abstract Class: Can have access modifiers for its members (public, private, protected, etc.).
+- Interface: All methods in an interface are implicitly public and abstract (before Java 8), and public and abstract (default) or public and static (Java 8 and later).
 - **Fields (Variables)**:
-  - Abstract Class: Can have instance variables (fields).
-  - Interface: Can have only static final variables, which are essentially constants.
+- Abstract Class: Can have instance variables (fields).
+- Interface: Can have only static final variables, which are essentially constants.
 - **Usage**:
-  - Abstract Class: Used when a common base implementation is needed across multiple classes, and you want to provide a default implementation for some methods.
-  - Interface: Used when you want to provide a contract that multiple classes can adhere to, especially when those classes may not share a common base implementation.
+- Abstract Class: Used when a common base implementation is needed across multiple classes and you want to provide a default implementation for some methods.
+- Interface: Used when you want to provide a contract that multiple classes can adhere to, especially when those classes may not share a common base implementation.
 
 </p>
 </details>
@@ -351,14 +352,14 @@ void Awake()
 <p>
 
 - **Enumeration** commonly referred to as an enum, is a distinct value type that defines a set of named values representing specific states or options. Enums are used to make code more readable and maintainable by providing meaningful names to integral values.
-- **For example**: 
+- **For example**:
 ```C-Sharp
 public enum Direction
 {
-    North,
-    South,
-    East,
-    West
+North,
+South,
+East,
+West
 }
 ```
 
@@ -372,25 +373,25 @@ public enum Direction
 
 **Some example packages**:
 - **TextMesh Pro**:
-  - Purpose: It provides advanced text rendering and formatting tools, offering more control and flexibility over Unity's built-in Text component.
+- Purpose: It provides advanced text rendering and formatting tools, offering more control and flexibility over Unity's built-in Text component.
 - **Cinemachine**:
-  - Purpose: Cinemachine is a powerful and customizable camera system for Unity. It simplifies the process of creating dynamic and cinematic camera movements in games.
+- Purpose: Cinemachine is a powerful and customizable camera system for Unity. It simplifies the process of creating dynamic and cinematic camera movements in games.
 - **Post Processing Stack**:
-  - Purpose: This package enhances the visual quality of your Unity project by adding post-processing effects like ambient occlusion, bloom, color grading, and more.
+- Purpose: This package enhances the visual quality of your Unity project by adding post-processing effects like ambient occlusion, bloom, color grading, and more.
 - **DOTween**:
-  - Purpose: DOTween is a fast, efficient, and easy-to-use animation engine for Unity. It allows developers to create smooth and complex animations with a simple syntax.
+- Purpose: DOTween is a fast, efficient, and easy-to-use animation engine for Unity. It allows developers to create smooth and complex animations with a simple syntax.
 - **Shader Graph**:
-  - Purpose: Shader Graph is a visual tool for creating shaders in Unity without the need for programming. It enables artists and developers to create custom materials and effects through a node-based interface.
+- Purpose: Shader Graph is a visual tool for creating shaders in Unity without the need for programming. It enables artists and developers to create custom materials and effects through a node-based interface.
 - **ProBuilder**:
-  - Purpose: ProBuilder is a 3D modeling tool integrated into the Unity editor. It allows developers to create, edit, and prototype 3D models directly within the Unity environment.
+- Purpose: ProBuilder is a 3D modeling tool integrated into the Unity editor. It allows developers to create, edit, and prototype 3D models directly within the Unity environment.
 - **Rewired**:
-  - Purpose: Rewired is a powerful input management system for Unity. It provides a customizable and unified input solution, making it easier to handle various input devices and platforms.
+- Purpose: Rewired is a powerful input management system for Unity. It provides a customizable and unified input solution, making it easier to handle various input devices and platforms.
 - **Playmaker**:
-  - Purpose: Playmaker is a visual scripting tool that allows game designers and developers to create gameplay mechanics and logic without writing code.
+- Purpose: Playmaker is a visual scripting tool that allows game designers and developers to create gameplay mechanics and logic without writing code.
 - **FinalIK**:
-  - Purpose: FinalIK is an inverse kinematics solution for Unity, helping developers implement realistic character animations by simulating the movements of bones in a skeletal hierarchy.
+- Purpose: FinalIK is an inverse kinematics solution for Unity, helping developers implement realistic character animations by simulating the movements of bones in a skeletal hierarchy.
 - **EasySave**:
-  - Purpose: EasySave is a serialization and data storage solution for Unity. It simplifies the process of saving and loading game data, including player preferences and game progress.
+- Purpose: EasySave is a serialization and data storage solution for Unity. It simplifies the process of saving and loading game data, including player preferences and game progress.
 
 </p>
 </details>
@@ -416,8 +417,9 @@ public enum Direction
 </p>
 </details>
 
+
 # Junior
-Decription: who have 1-5 years work with Unity.
+Description: who have 1-5 years work with Unity.
 
 **1. Question: There are some special folder names in Unity. What are there?**
 
@@ -464,12 +466,12 @@ Decription: who have 1-5 years work with Unity.
 <details><summary>Answer</summary>
 <p>
 
-- **Quaternions** are used to represent rotations. The advantages of relative **Euler angles**: it can perform incremental rotation, avoid universal lock, and there are two ways of expressing a given orientation, which are mutually negative (Euler angles have countless ways of expression)
+- **Quaternions** are used to represent rotations. The advantages of relative **Euler angles**: it can perform incremental rotation, avoid universal lock, and have two ways of expressing a given orientation that are mutually negative (Euler angles have countless ways of expression)
 
 </p>
 </details>
 
-**4. Question: What is the difference between material and sharedmaterial in MeshRender?**
+**4. Question: What is the difference between material and shared material in MeshRender?**
 
 <details><summary>Answer</summary>
 <p>
@@ -524,7 +526,8 @@ Decription: who have 1-5 years work with Unity.
 <details><summary>Answer</summary>
 <p>
 
-- **LOD (Level of detail)** is the most commonly used game optimization technology. It determines the resource allocation of object rendering according to the position and importance of the model, reducing the number of faces and details of non-important objects, thereby achieving highly efficient rendering operations.
+- **LOD (Level of detail)** is the most commonly used game optimization technology. It determines the resource allocation of object rendering according to the position and importance of the model, reducing the number of faces and details of non-important objects and thereby achieving highly efficient rendering operations.
+- **Disadvantage** of LOD is development time and complexity for multiple variation of same model, build size and artifacts.
 
 </p>
 </details>
@@ -540,7 +543,7 @@ Decription: who have 1-5 years work with Unity.
 </p>
 </details>
 
-**9. Question: What difference between heap and stack memory in C#?**
+**9. Question: What is the difference between heap and stack memory in C#?**
 
 <details><summary>Answer</summary>
 <p>
@@ -551,7 +554,7 @@ Decription: who have 1-5 years work with Unity.
   - **Lifetime**: Variables on the stack have a limited lifetime, tied to the scope of a method or function.
   - **Size**: The stack has a limited size, and memory allocation is fast due to a simple pointer adjustment.
   - **Example**: Variables like primitive data types, references, and local variables are stored on the stack.
-csharp
+    csharp
 ```
 int localVar = 42; // localVar is on the stack
 ```
@@ -561,7 +564,7 @@ int localVar = 42; // localVar is on the stack
   - **Lifetime**: Variables on the heap can have a longer lifetime than stack variables. They persist until explicitly deallocated.
   - **Size**: The heap can grow dynamically based on the needs of your C# application.
   - **Example**: Objects like classes, arrays, and large data structures are allocated on the heap.
-csharp
+    csharp
 ```
 class MyClass {
     // Class members
@@ -589,7 +592,7 @@ In the context of **Object-Oriented Programming** (OOP), the term "**solid**" of
 </p>
 </details>
 
-**11. When should you use array and when should you use list?**
+**11. When should you use array, and when should you use list?**
 
 <details><summary>Answer</summary>
 <p>
@@ -614,7 +617,7 @@ In the context of **Object-Oriented Programming** (OOP), the term "**solid**" of
 <p>
 
 - In animation, **easing** is a technique used to control the acceleration or deceleration of an animated property over time, creating more natural and visually pleasing motion. The goal is to make animations appear smoother and more lifelike by adjusting the speed of movement during different phases of the animation.
-- Some examples of easing animation: clicking button, moving object, make bounce effect, etc ...
+- Some examples of easing animation: clicking a button, moving an object, making a bounce effect, etc ...
 
 </p>
 </details>
@@ -636,11 +639,11 @@ In the context of **Object-Oriented Programming** (OOP), the term "**solid**" of
 
 <details><summary>Answer</summary>
 <p>
-	
+
 - **Statement 2** is corrected.
   - **The Update callback** is called using a C# **Reflection**, which is significantly slower than calling a function directly. In our example, **1000 GameObjects** each with a MonoBehaviour means **1000 Reflection** calls per frame.
   - Creating **one MonoBehaviour** with one **Update**, and using this single callback to Update a given number of elements, is a lot faster, due to the direct access to the method.
-    
+
 </p>
 </details>
 
@@ -650,7 +653,7 @@ In the context of **Object-Oriented Programming** (OOP), the term "**solid**" of
 <p>
 
 - The Unity **Physics Material** component is used to define the physical properties of an object, such as its **friction** and **bounciness**.
-- It allows developers to **fine-tune** the interactions between different objects in a scene, such as when they collide with each other or when they interact with otherphysics-based components.
+- It allows developers to **fine-tune** the interactions between different objects in a scene, such as when they collide with each other or when they interact with other physics-based components.
 - This allows for more **realistic physics simulation** and better control over the physical behavior of objects in a Unity game.
 
 </p>
@@ -661,7 +664,7 @@ In the context of **Object-Oriented Programming** (OOP), the term "**solid**" of
 <details><summary>Answer</summary>
 <p>
 
-- For each new layer, a new column and roware added on the **collision matrix**. This matrix is responsible for defining interactions between layers.
+- For each new layer, a new column and row are added on the **collision matrix**. This matrix is responsible for defining interactions between layers.
 
 </p>
 </details>
@@ -671,10 +674,10 @@ In the context of **Object-Oriented Programming** (OOP), the term "**solid**" of
 <details><summary>Answer</summary>
 <p>
 
-- Real time applications, such as games, have a variable FPS. They sometimes run at 60FPS, or when suffering slowdowns, they will run on 40FPS or less.
-- If you want to change a value from A to B in 1.0 seconds you can't simply increase A by B-A between two frames because frames can run fast or slow, so one frame can have different durations.
+- Real time applications, such as games, have a variable FPS. They sometimes run at 60 FPS, or when suffering slowdowns, they will run at 40 FPS or less.
+- If you want to change a value from A to B in 1.0 seconds, you can't simply increase A by B-A between two frames because frames can run fast or slow, so one frame can have different durations.
 - The way to correct this is to measure the time taken from frame X to X+1 and increment A, leveraging this change with the frame duration deltaTime by doing A += (B-A) * Delta Time.
-- When the accumulated DeltaTime reaches 1.0 second, A will have assumed B value.
+- When the accumulated DeltaTime reaches 1.0 second, A will have assumed the B value.
 
 </p>
 </details>
@@ -684,12 +687,12 @@ In the context of **Object-Oriented Programming** (OOP), the term "**solid**" of
 <details><summary>Answer</summary>
 <p>
 
-- **Update()** is called on every Frame, regardless of time passed since last frame
+- **Update()** is called on every Frame, regardless of how much time has passed since the last frame
   - Good for Movement, InputControl etc. (most of the time you'll use Update)
-  - Usually you will use Time.DeltaTime to take passed time into account (e.g. for GameObject Translations)
+  - Usually you will use Time.DeltaTime to take pastime into account (e.g. for GameObject Translations)
 - **LateUpdate()** is called after all Update() methods are processed
-  - So e.g. for the camera that follows your character it's good to Update after it has moved
-- **Fixed Update()** is called by the physics engine in fixed intervals (that can beset in the Options)
+  - So e.g. for the camera that follows your character, it's good to Update after it has moved
+- **Fixed Update()** is called by the physics engine at fixed intervals (that can beset in the Options)
 
 </p>
 </details>
@@ -699,7 +702,7 @@ In the context of **Object-Oriented Programming** (OOP), the term "**solid**" of
 <details><summary>Answer</summary>
 <p>
 
-- **Occlusion culling** is a process which prevents Unity from performing rendering calculations for GameObjects that are completely hidden from view (occluded) by other GameObjects.
+- **Occlusion culling** is a process that prevents Unity from performing rendering calculations for GameObjects that are completely hidden from view (occluded) by other GameObjects.
 - Every frame, **Cameras** perform culling operations that examine the **Renderers** in the Scene and exclude (cull) those that do not need to be drawn. By default, Cameras perform frustum culling, which excludes all Renderers that do not fall within the Camera's view frustum.
 
 </p>
@@ -715,13 +718,13 @@ In the context of **Object-Oriented Programming** (OOP), the term "**solid**" of
 </p>
 </details>
 
-**21. Question: How do you understand ragdolls in the game? Let's talk about the principles of setting up a character with a ragdoll.**
+**21. Question: How do you understand rag dolls in the game? Let's talk about the principles of setting up a character with a ragdoll.**
 
 <details><summary>Answer</summary>
 <p>
 
 - In the context of video games, a **ragdoll** refers to a physics-based simulation of a character's body movement when it is subjected to external forces, such as collisions or explosions. This simulation is used to create more realistic and dynamic character animations, especially in situations where predefined animations might not be appropriate or feasible.
-- To set up a **ragdoll**, you need to attach **rigidbodies** and **colliders** to the main parts of the character's body. Afterward, you will use **joints** (character joint, hinge joint, etc.) to create articulations for these parts.
+- To set up a **ragdoll**, you need to attach **rigidbodies** and **colliders** to the main parts of the character's body. Afterward, you will use **joints** (character joints, hinge joints, etc.) to create articulations for these parts.
 
 </p>
 </details>
@@ -731,7 +734,7 @@ In the context of **Object-Oriented Programming** (OOP), the term "**solid**" of
 <details><summary>Answer</summary>
 <p>
 
-- 
+-
 
 </p>
 </details>
@@ -741,7 +744,7 @@ In the context of **Object-Oriented Programming** (OOP), the term "**solid**" of
 <details><summary>Answer</summary>
 <p>
 
-- 
+-
 
 </p>
 </details>
@@ -751,7 +754,7 @@ In the context of **Object-Oriented Programming** (OOP), the term "**solid**" of
 <details><summary>Answer</summary>
 <p>
 
-- 
+-
 
 </p>
 </details>
@@ -761,7 +764,7 @@ In the context of **Object-Oriented Programming** (OOP), the term "**solid**" of
 <details><summary>Answer</summary>
 <p>
 
-- 
+-
 
 </p>
 </details>
@@ -771,7 +774,7 @@ In the context of **Object-Oriented Programming** (OOP), the term "**solid**" of
 <details><summary>Answer</summary>
 <p>
 
-- 
+-
 
 </p>
 </details>
@@ -781,7 +784,7 @@ In the context of **Object-Oriented Programming** (OOP), the term "**solid**" of
 <details><summary>Answer</summary>
 <p>
 
-- 
+-
 
 </p>
 </details>
@@ -791,7 +794,7 @@ In the context of **Object-Oriented Programming** (OOP), the term "**solid**" of
 <details><summary>Answer</summary>
 <p>
 
-- 
+-
 
 </p>
 </details>
@@ -801,7 +804,7 @@ In the context of **Object-Oriented Programming** (OOP), the term "**solid**" of
 <details><summary>Answer</summary>
 <p>
 
-- 
+-
 
 </p>
 </details>
@@ -811,36 +814,36 @@ In the context of **Object-Oriented Programming** (OOP), the term "**solid**" of
 <details><summary>Answer</summary>
 <p>
 
-- 
+-
 
 </p>
 </details>
 
 # Senior
-Decription: practically who have more than 5 years working with Unity and base on knowledge.
+Description: Practically, those who have spent more than 5 years working with Unity and have knowledge.
 
-**1. Question: How does GPU work?**
+**1. Question: How does the GPU work?**
 
 <details><summary>Answer</summary>
 <p>
 
 - In short, the GPU graphics (processing) pipeline completes the following work: (not necessarily in the following order).
-- **Vertex processing**: At this stage, the GPU reads the vertex data describing the appearance of the 3D graphics and determines the shape and positional relationship of the 3D graphics based on the vertex data, establishing the skeleton of the 3D graphics. In GPUs that support the DX8 and DX9 specifications, these tasks are completed by the hardware-implemented Vertex Shader (fixed-point shader).
+- **Vertex processing**: At this stage, the GPU reads the vertex data describing the appearance of the 3D graphics and determines the shape and positional relationship of the 3D graphics based on the vertex data, establishing the skeleton of the 3D graphics. On GPUs that support the DX8 and DX9 specifications, these tasks are completed by the hardware-implemented Vertex Shader (fixed-point shader).
 - **Rasterization calculation**: The image actually displayed on the monitor is composed of pixels. We need to convert the points and lines on the graphics generated above into the corresponding pixels through a certain algorithm. The process of converting a vector graphic into a series of pixels is called rasterization. For example, a mathematical representation of a diagonal line segment is eventually converted into a staircase-like continuous pixel point.
 - **Texture mapping**: The polygons generated by the vertex unit only constitute the outline of the 3D object, while texture mapping completes the mapping of multi-deformed surfaces. In layman's terms, it means pasting the corresponding pictures on the polygonal surface, thereby Generate "realistic" graphics. TMU (Texture mapping unit) is used to complete this work.
 - **Pixel processing**: In this stage (during the rasterization of each pixel) the GPU completes the calculations and processing of the pixels to determine the final properties of each pixel. In GPUs that support the DX8 and DX9 specifications, these tasks are completed by the hardware-implemented Pixel Shader.
-- Final output: **The ROP** (rasterization engine) finally completes the output of pixels. After one frame is rendered, it is sent to the video memory frame buffer.
+- Final output: **The ROP** (rasterisation engine) finally completes the output of pixels. After one frame is rendered, it is sent to the video memory frame buffer.
 - Summary: Generally speaking, the work of the GPU is to complete the generation of 3D graphics, map the graphics to the corresponding pixels, calculate each pixel to determine the final color and complete the output.
 
 </p>
 </details>
 
-**2. Question: Write down the calculation formula of diffuse in lighting calculation?**
+**2. Question: Write down the calculation formula for diffuse in lighting calculation?**
 
 <details><summary>Answer</summary>
 <p>
 
-- diffuse = Kd x colorLight x max(N*L,0); Kd is the diffuse reflection coefficient, colorLight is the color of the light, N is the unit normal vector, L is the unit vector pointing from the point to the light source, where N is dot multiplied by L, if If the result is less than or equal to 0, the diffuse reflection is 0.
+- diffuse = Kd x colorLight x max(N*L,0); Kd is the diffuse reflection coefficient, colorLight is the color of the light, N is the unit normal vector, L is the unit vector pointing from the point to the light source, where N is the dot multiplied by L, if the result is less than or equal to 0, the diffuse reflection is 0.
 
 </p>
 </details>
@@ -908,7 +911,7 @@ Decription: practically who have more than 5 years working with Unity and base o
 </p>
 </details
 
- **9. Question: **
+**9. Question: **
 
 <details><summary>Answer</summary>
 <p>
@@ -934,5 +937,5 @@ Open-sourced software licensed under the [MIT license](http://opensource.org/lic
 # Support
 - If you like this topic, you can give this repository a star ⭐
 - I would greatly appreciate it if you could support me with a cup of coffee
-<a href="https://www.buymeacoffee.com/HoangVanThu">
+  <a href="https://www.buymeacoffee.com/HoangVanThu">
   <img src="https://www.the3rdsequence.com/texturedb/images/donate/buymeacoffee.svg" width="200" height="47"/>
