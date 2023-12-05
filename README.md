@@ -13,6 +13,7 @@ Let's answer the questions and achieve your goals !!
 - [Junior](#Junior)
 - [Middle Junior](#Middle-Junior)
 - [Senior](#Senior)
+---
 # Intern
 Description: who study in school and work at a company at the same time.
 
@@ -119,6 +120,7 @@ Popular game engines include **Unity**, **Unreal Engine**, and **CryEngine**. Ga
 </p>
 </details>
 
+---
 # Fresher
 
 Description: who graduated and started working at the company. Working with Unity less than a year. If you have no Unity experience, you should see the questions of the intern.
@@ -417,7 +419,7 @@ West
 </p>
 </details>
 
-
+---
 # Junior
 Description: who have 1-5 years work with Unity.
 
@@ -826,6 +828,7 @@ In the context of **Object-Oriented Programming** (OOP), the term "**solid**" of
 </p>
 </details>
 
+---
 # Senior
 Description: Practically, those who have spent more than 5 years working with Unity and have knowledge.
 
