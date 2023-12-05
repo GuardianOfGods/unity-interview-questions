@@ -526,7 +526,7 @@ Description: who have 1-5 years work with Unity.
 <details><summary>Answer</summary>
 <p>
 
-- **LOD (Level of detail)** is the most commonly used game optimization technology. It determines the resource allocation of object rendering according to the position and importance of the model, reducing the number of faces and details of non-important objects and thereby achieving highly efficient rendering operations.
+- **LOD (Level of detail)** is the most commonly used game optimization technology. It determines the resource allocation of object rendering according to the position and importance of the model, reducing the number of faces and details of non-important objects, thereby achieving highly efficient rendering operations.
 - **Disadvantage** of LOD is development time and complexity for multiple variation of same model, build size and artifacts.
 
 </p>
