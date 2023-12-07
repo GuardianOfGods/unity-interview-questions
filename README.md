@@ -762,7 +762,7 @@ In the context of **Object-Oriented Programming** (OOP), the term "**solid**" of
 6. Then **BeforeSceneLoad** callback is invoked. Here objects of the scene is loaded but Awake() has not been called yet. All objects are considered inactive here.
 7. Now Awake() and OnEnable() are invoked on MonoBehaviours.
 8. Then **AfterSceneLoad** callback is invoked. Here objects of the scene are considered fully loaded and setup. Active objects can be found with FindObjectsByType.
-- The above details are when starting up a Player build. When entering Play mode in the Editor the same invocations are ensured.
+- The above details are when starting up a **Player build**. When entering Play mode in the Editor the same invocations are ensured.
 
 </p>
 </details>
