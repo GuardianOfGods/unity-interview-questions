@@ -748,7 +748,7 @@ In the context of **Object-Oriented Programming** (OOP), the term "**solid**" of
 </p>
 </details>
 
-**23. Question: List the callback forms of the ```[RuntimeInitializeOnLoadMethodAttribute(_callback)]```. Provide the order of their execution process in Unity.**
+**23. Question: List the callback forms of the ```[RuntimeInitializeOnLoadMethod(_callback)]```. Provide the order of their execution process in Unity.**
 
 <details><summary>Answer</summary>
 <p>
