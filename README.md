@@ -748,12 +748,21 @@ In the context of **Object-Oriented Programming** (OOP), the term "**solid**" of
 </p>
 </details>
 
-**23. Question: **
+**23. Question: List the callback forms of the ```[RuntimeInitializeOnLoadMethodAttribute(_callback)]```. Provide the order of their execution process in Unity.**
 
 <details><summary>Answer</summary>
 <p>
 
--
+- The following list shows the execution order of the **RuntimeInitializeLoadType callbacks**:
+1. First various low level systems are initialized (window, assemblies, gfx etc.)
+2. Then **SubsystemRegistration** and **AfterAssembliesLoaded** callbacks are invoked.
+3. More setup (input systems etc.)
+4. Then **BeforeSplashScreen** callback is invoked.
+5. Now the first scene starts loading.
+6. Then **BeforeSceneLoad** callback is invoked. Here objects of the scene is loaded but Awake() has not been called yet. All objects are considered inactive here.
+7. Now Awake() and OnEnable() are invoked on MonoBehaviours.
+8. Then **AfterSceneLoad** callback is invoked. Here objects of the scene are considered fully loaded and setup. Active objects can be found with FindObjectsByType.
+- The above details are when starting up a Player build. When entering Play mode in the Editor the same invocations are ensured.
 
 </p>
 </details>
