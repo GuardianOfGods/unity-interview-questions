@@ -767,12 +767,13 @@ In the context of **Object-Oriented Programming** (OOP), the term "**solid**" of
 </p>
 </details>
 
-**24. Question: **
+**24. Question: What is a sealed class? Provide an example of a sealed class."**
 
 <details><summary>Answer</summary>
 <p>
 
--
+- In **object-oriented programming**, a **sealed class** is a class that cannot be inherited or subclassed. Once a class is declared as sealed, it cannot be extended or used as a base class for other classes. This restriction is applied to prevent further modification or extension of the class, often for reasons related to security, optimization, or design.
+- For an example, **class FourLimbedAnimal** should be sealed if you want to enforce a specific design or behavior and ensure that no other classes can extend or inherit from them.
 
 </p>
 </details>
