@@ -778,12 +778,20 @@ In the context of **Object-Oriented Programming** (OOP), the term "**solid**" of
 </p>
 </details>
 
-**25. Question: **
+**25. Question: Comparison between IL2CPP and mono builds?**
 
 <details><summary>Answer</summary>
 <p>
 
--
+- Here is the sumary comparation table:
+| Feature                 | Mono                     | IL2CPP                   |
+|-------------------------|--------------------------|--------------------------|
+| **Compilation**         | JIT (Just-In-Time)       | AOT (Ahead-Of-Time)      |
+| **Performance**         | Slightly slower startup  | Improved runtime         |
+| **Platform Support**    | Broad support            | Enhanced platform support|
+| **Memory Usage**        | Potentially larger       | Potential memory optimization|
+| **Code Security**       | Bytecode exposure        | C++ code is harder to reverse engineer|
+| **Debugging**           | Easier with C# code      | Can be more challenging with C++ code|
 
 </p>
 </details>
