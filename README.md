@@ -784,6 +784,7 @@ In the context of **Object-Oriented Programming** (OOP), the term "**solid**" of
 <p>
 
 - Here is the sumary comparation table:
+
 | Feature                 | Mono                     | IL2CPP                   |
 |-------------------------|--------------------------|--------------------------|
 | **Compilation**         | JIT (Just-In-Time)       | AOT (Ahead-Of-Time)      |
