@@ -803,15 +803,7 @@ In the context of **Object-Oriented Programming** (OOP), the term "**solid**" of
 <p>
 
 - A **design pattern** is a general reusable solution to a commonly occurring problem within a given context in software design. It is a **template** or **blueprint** for solving a particular design problem in a way that is both effective and efficient. **Design patterns** can speed up the development process by providing tested, proven development paradigms.
-- In the context of game development with **Unity**, there are several commonly used design patterns. Here are a few examples:
-**(1) Singleton Pattern
-(2) Observer Pattern
-(3) Factory Method Pattern
-(4) Command Pattern
-(5) State Pattern
-(6) Decorator Pattern
-(7) Strategy Pattern
-(8) Component Pattern**
+- In the context of game development with **Unity**, there are several commonly used design patterns. Here are a few examples: **Singleton Pattern, Observer Pattern, Factory Method Pattern, Command Pattern, State Pattern, Decorator Pattern, Strategy Pattern, Component Pattern**
 
 </p>
 </details>
