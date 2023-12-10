@@ -961,9 +961,6 @@ Description: Practically, those who have spent more than 5 years working with Un
 </p>
 </details>
 
-# LICENSE
-Open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
-
 # Support
 - If you like this topic, you can give this repository a star ⭐
 - I would greatly appreciate it if you could support me with a cup of coffee
