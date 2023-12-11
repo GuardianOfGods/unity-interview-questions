@@ -767,7 +767,7 @@ In the context of **Object-Oriented Programming** (OOP), the term "**solid**" of
 </p>
 </details>
 
-**24. Question: What is a sealed class? Provide an example of a sealed class."**
+**24. Question: What is a sealed class? Provide an example of a sealed class.**
 
 <details><summary>Answer</summary>
 <p>
@@ -808,12 +808,14 @@ In the context of **Object-Oriented Programming** (OOP), the term "**solid**" of
 </p>
 </details>
 
-**27. Question: **
+**27. Question:What do you understand about compile time and runtime in Unity?**
 
 <details><summary>Answer</summary>
 <p>
 
--
+In Unity:
+- **Compile Time**: The phase where the source code is translated into machine code or bytecode, preparing the game for execution. It involves error checking, script compilation, and optimization, producing binary files or assemblies.
+- **Runtime**: The phase when the compiled code is executed on the target platform, and the game runs. This involves activities like managing memory, handling user input, updating game objects, and real-time debugging to identify and fix issues while the game is running.
 
 </p>
 </details>
