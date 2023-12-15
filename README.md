@@ -820,12 +820,25 @@ In Unity:
 </p>
 </details>
 
-**28. Question: **
+**28. Question: Can you briefly explain the two target architectures, ARMv7 and ARM64, in the context of building Android?**
 
 <details><summary>Answer</summary>
 <p>
 
--
+
+In the context of mobile device architectures:
+
+- **ARMv7:**
+  - 32-bit architecture.
+  - Used in older smartphones, typically pre-2015.
+  - Backward compatible with earlier ARM architectures.
+
+- **ARM64:**
+  - 64-bit architecture.
+  - Offers improved performance and memory handling.
+  - Common in modern smartphones since around 2015.
+- Can run both 32-bit and 64-bit applications, but optimized for 64-bit code. When building mobile applications, developers often create binaries optimized for specific architectures. Supporting both **ARMv7** and **ARM64** ensures compatibility and optimal performance across a wide range of devices. Developers can specify target architectures in build settings using tools like Android Studio or Xcode.
+- When you download an app from the **Google Play Store**, if your device uses the ARMv7 architecture, the Google Play Store will download and install the version designed for ARMv7. If your device uses the ARM64 architecture, it will fetch the version optimized for ARM64.
 
 </p>
 </details>
