@@ -38,32 +38,32 @@ Description: who study in school and work at a company at the same time.
 <p>
 
 - **Desktop**:
-- Windows (PC)
-- Mac
-- Universal Windows Platform (UWP)
-- Linux Standalone
+  - Windows (PC)
+  - Mac
+  - Universal Windows Platform (UWP)
+  - Linux Standalone
 - **Mobile**:
-- iOS
-- Android
+  - iOS
+  - Android
 - **Extended Reality (XR)**:
-- ARKit
-- ARCore
-- Microsoft HoloLens
-- Windows Mixed Reality
-- Magic Leap (Lumin)
-- Oculus
-- PlayStation VR
+  - ARKit
+  - ARCore
+  - Microsoft HoloLens
+  - Windows Mixed Reality
+  - Magic Leap (Lumin)
+  - Oculus
+  - PlayStation VR
 - **Consoles**:
-- PS5
-- PS4
-- Xbox One
-- Xbox X|S
-- Nintendo Switch
-- Google Stadia
-- WebGL
+  - PS5
+  - PS4
+  - Xbox One
+  - Xbox X|S
+  - Nintendo Switch
+  - Google Stadia
+  - WebGL
 - **Embedded**:
-- Embedded Linux
-- QNX
+  - Embedded Linux
+  - QNX
 
 </p>
 </details>
