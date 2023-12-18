@@ -857,8 +857,8 @@ There are several ways to import a package into Unity:
 - **Manual Import**:
   - You can manually copy the package contents into your project's "Assets" folder.
 - **Asset Store**:
-  - If a package is available on the Unity Asset Store, you can acquire and import it directly from the Asset Store window in the Unity Editor.
-  - Open the Asset Store window by selecting "Window" > "Asset Store."
+  - If a package is available on the U**nity Asset Store**, you can acquire and import it directly from the Asset Store window in the Unity Editor.
+  - Open the **Asset Store** window by selecting "Window" > "Asset Store."
   - Find the desired package, click "Download," and Unity will automatically import it into your project.
 
 </p>
