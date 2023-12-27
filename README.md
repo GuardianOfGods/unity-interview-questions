@@ -2,7 +2,7 @@
 <img width="800" src="https://github.com/GuardianOfGods/unity-interview-questions/assets/52252046/c658bd6c-58be-4d01-94fa-12cda489935b">
 </div>
 
----
+--- 
 # Unity Interview Questions
 👋 **Hi there, I'm HoangVanThu.** These are questions I interviewed and also collected on websites. I hope it helps you a lot.  <br>
 Let's answer the questions and achieve your goals !!
