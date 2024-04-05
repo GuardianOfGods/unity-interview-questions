@@ -895,6 +895,16 @@ There are several ways to import a package into Unity:
 </p>
 </details>
 
+**32. Question: what difference between kinematics and static?**
+
+<details><summary>Answer</summary>
+<p>
+
+- The main difference between kinematics and static rigidbodies in Unity lies in their behavior regarding motion and interaction with the physics engine. **Kinematic** rigidbodies are controlled programmatically and do not respond to external forces, while **static** rigidbodies are stationary and primarily used for collision detection within the physics simulation.
+
+</p>
+</details>
+
 ---
 # Senior
 Description: Practically, those who have spent more than 5 years working with Unity and have knowledge.
