@@ -895,12 +895,119 @@ There are several ways to import a package into Unity:
 </p>
 </details>
 
-**32. Question: what difference between kinematics and static?**
+**32. Question: What difference between kinematics and static?**
 
 <details><summary>Answer</summary>
 <p>
 
 - The main difference between kinematics and static rigidbodies in Unity lies in their behavior regarding motion and interaction with the physics engine. **Kinematic** rigidbodies are controlled programmatically and do not respond to external forces, while **static** rigidbodies are stationary and primarily used for collision detection within the physics simulation.
+
+</p>
+</details>
+
+**32. Question: How to split a class into 2 different files?**
+
+<details><summary>Answer</summary>
+<p>
+
+- Splitting a class into two different files in C# can be done using the **partial** keyword. This keyword allows you to split the definition of a class, struct, or interface across multiple source files. **For example:**
+```
+// File 1
+public partial class MyClass
+{
+    // Define your class members here
+    public void Method1() { }
+    public void Method2() { }
+}
+
+// File 2
+public partial class MyClass
+{
+    // Define your class members here
+    public void Method3() { }
+}
+```
+
+</p>
+</details>
+
+**33. Question: Describe how the stencil buffer works and uses in unity?**
+
+<details><summary>Answer</summary>
+<p>
+
+- **The stencil buffer** is a component of the graphics pipeline that is used in computer graphics to achieve various effects like outlining objects, creating reflections, shadows, and more. In Unity, the stencil buffer can be manipulated through shaders to implement custom rendering techniques.
+- In game, **the stencil buffer** is used for creating cutting holes, impossible geometry, magic card, ...
+
+</p>
+</details>
+
+**34. Question: **
+
+<details><summary>Answer</summary>
+<p>
+
+-
+
+</p>
+</details>
+
+**35. Question: **
+
+<details><summary>Answer</summary>
+<p>
+
+-
+
+</p>
+</details>
+
+**36. Question: **
+
+<details><summary>Answer</summary>
+<p>
+
+-
+
+</p>
+</details>
+
+**37. Question: **
+
+<details><summary>Answer</summary>
+<p>
+
+-
+
+</p>
+</details>
+
+**38. Question: **
+
+<details><summary>Answer</summary>
+<p>
+
+-
+
+</p>
+</details>
+
+**39. Question: **
+
+<details><summary>Answer</summary>
+<p>
+
+-
+
+</p>
+</details>
+
+**40. Question: **
+
+<details><summary>Answer</summary>
+<p>
+
+-
 
 </p>
 </details>
