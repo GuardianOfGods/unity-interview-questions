@@ -1055,12 +1055,27 @@ Description: Practically, those who have spent more than 5 years working with Un
 </p>
 </details>
 
-**4. Question: **
+**4. Question: Explain the rendering process in computer graphics, including the roles of the CPU and GPU, the concept of draw calls, batching, render states, and passes. Provide a detailed overview of how objects in a scene are rendered from the perspective of data processing and communication between the CPU and GPU.**
 
 <details><summary>Answer</summary>
 <p>
 
-
+- **In simple terms, the rendering process is carried out as follows:**
+  - First, the CPU identifies which objects need to be drawn and how to draw them.
+  - Then the CPU sends descriptions of these objects to the GPU.
+  - The GPU renders the objects according to the CPU's instructions.
+- **Now you have an idea of what the CPU and GPU do during the rendering process. Next, we'll delve into the details of each of these tasks: For each frame, the CPU performs the following tasks:**
+  - The CPU traverses all objects in the scene to determine which ones need to be rendered. Objects that are not rendered are called culled (You might think of the Occlusion Culling feature - this feature will be introduced later).
+  - Then, the CPU collects information about the rendered objects and organizes the data into batches of commands called Draw Calls. A Draw Call contains information about a single mesh and determines how this mesh will be rendered (for example, which textures will be used). In some cases, objects can share settings that can be combined into a single Draw Call. Combining data from different objects into a single Draw Call is called batching. For each Draw Call, the CPU creates a package of data called a Batch.
+- **For each Batch containing a Draw Call, the CPU continues as follows:**
+  - The CPU sends a command to the GPU to change some variables called Render State. These commands are called SetPass Calls. A SetPass Call instructs the GPU which settings to use for the next mesh. A SetPass Call is only sent if the next mesh to be rendered requires a change in Render State from the previous mesh.
+  - Then, the CPU sends the Draw Call to the GPU. The Draw Call instructs the GPU to render the mesh using the settings determined in the nearest SetPass Call.
+  - In some cases, more than one pass may be required for a Batch. A Pass is a part of shader code, and a new pass requires a change to Render State. For each pass in the Batch, the CPU sends a new SetPass Call and then sends the Draw Call again.
+- **The GPU handles rendering objects as follows:**
+  - The GPU processes tasks from the CPU in the order they are sent.
+  - If the current task is a SetPass Call, the GPU updates the Render State.
+  - If the current task is a Draw Call, the GPU renders the mesh.
+  - This process repeats continuously until all tasks sent from the CPU have been processed by the GPU.
 
 </p>
 </details>
