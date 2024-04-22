@@ -109,12 +109,27 @@ Popular game engines include **Unity**, **Unreal Engine**, and **CryEngine**. Ga
 </p>
 </details>
 
-**5. Question: List some popular games made by Unity?**
+**6. Question: List some popular games made by Unity?**
 
 <details><summary>Answer</summary>
 <p>
 
 - Genshin Impact, Among Us, Pokemon Go, Cup Head, Over Cook, Fall Guys, Heart Stone, ... etc
+
+</p>
+</details>
+
+**7. Question: What is Object-Oriented Programming (OOP)? What are the main principles of OOP?**
+
+<details><summary>Answer</summary>
+<p>
+
+- **Object-Oriented Programming (OOP)** is a programming paradigm that revolves around the concept of "objects," which are instances of classes. It focuses on organizing code into reusable and modular components, making it easier to manage and understand. OOP encourages the use of abstraction, encapsulation, inheritance, and polymorphism to create efficient and maintainable software systems.
+- There are 4 main principles of OOP:
+  - **Encapsulation**: Encapsulation refers to the bundling of data (attributes or properties) and methods (functions or procedures) that operate on the data into a single unit, called a class. This allows data to be hidden from the outside world and accessed only through well-defined interfaces. Encapsulation helps in achieving data hiding and reduces system complexity by controlling access to the components.
+  - **Abstraction**: Abstraction involves the concept of hiding complex implementation details and showing only the essential features of an object. It allows programmers to focus on what an object does rather than how it does it. By abstracting away unnecessary details, abstraction facilitates code reusability and enhances the maintainability of the software.
+  - **Inheritance**: Inheritance is a mechanism that allows a class (subclass or derived class) to inherit properties and behavior from another class (superclass or base class). This promotes code reuse and enables the creation of a hierarchical relationship between classes. Subclasses can extend or override the functionality of the superclass, thus providing flexibility and modularity in the design.
+  - **Polymorphism**: Polymorphism means the ability of objects to take on different forms or behaviors based on their context. In OOP, polymorphism allows objects of different classes to be treated as objects of a common superclass. This is typically achieved through method overriding (redefining a method in a subclass) and method overloading (defining multiple methods with the same name but different parameters). Polymorphism enables flexibility in designing software systems and enhances code readability and maintainability.
 
 </p>
 </details>
