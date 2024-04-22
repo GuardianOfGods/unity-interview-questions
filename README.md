@@ -11,7 +11,6 @@ Let's answer the questions and achieve your goals !!
 - [Intern](#Intern)
 - [Fresher](#Fresher)
 - [Junior](#Junior)
-- [Middle Junior](#Middle-Junior)
 - [Senior](#Senior)
 ---
 # Intern
